@@ -38,7 +38,7 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: var(--gap-lgi);
+  gap: 19px;
   text-align: center;
   font-size: var(--font-size-9xl);
 }
@@ -48,71 +48,59 @@
   line-height: 20px;
   font-weight: 600;
 }
-.select-desired-company,
-.this-dashboard-is-only-accesib-wrapper {
-  font-size: var(--font-size-5xl);
-  color: var(--color-mediumvioletred);
-}
 .this-dashboard-is-only-accesib-wrapper {
   align-self: stretch;
+}
+.select-desired-company-locati-wrapper,
+.this-dashboard-is-only-accesib-wrapper {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
 }
-.select-desired-company {
-  position: relative;
-  line-height: 20px;
-  font-weight: 600;
-}
 .on-the-top-container {
-  align-self: stretch;
+  flex: 1;
   position: relative;
   line-height: 30px;
 }
-.select-desired-company-locati-parent {
-  align-self: stretch;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: var(--gap-lgi);
-}
-.div,
-.div1 {
-  position: relative;
-  line-height: 35px;
-}
-.div1 {
-  color: #2400ff;
-}
-.parent {
-  height: 264px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: space-between;
-  padding: 44px 0;
-  box-sizing: border-box;
-}
 .frame-child {
-  align-self: stretch;
-  flex: 1;
   position: relative;
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
+  width: 323px;
+  height: 242px;
   object-fit: cover;
 }
-.frame-container {
+.on-the-top-of-the-panel-youll-parent {
   align-self: stretch;
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
-  padding: 0 239px;
+  justify-content: flex-start;
+  padding: 0 var(--padding-17xl);
+  gap: var(--gap-xl);
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+}
+.frame-container,
+.frame-div {
+  align-self: stretch;
+  background-color: var(--color-white);
+  display: flex;
+  justify-content: flex-start;
+}
+.frame-div {
+  flex-direction: row;
+  align-items: center;
+  padding: 0 var(--padding-17xl);
+  gap: var(--gap-xl);
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+}
+.frame-container {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-27xl);
   font-size: var(--font-size-5xl);
-  color: red;
+  color: var(--color-mediumvioletred);
 }
 .create-a-new {
   position: relative;
@@ -129,12 +117,7 @@
   font-size: var(--font-size-5xl);
   color: var(--color-mediumvioletred);
 }
-.you-can-start-container {
-  flex: 1;
-  position: relative;
-  line-height: 30px;
-}
-.frame-item {
+.frame-inner {
   position: relative;
   width: 323px;
   height: 242px;
@@ -143,7 +126,7 @@
   object-fit: cover;
 }
 .add-edit-and-delete-buttons-a-parent,
-.frame-parent1,
+.frame-parent2,
 .you-can-start-the-device-creat-parent {
   align-self: stretch;
   display: flex;
@@ -154,10 +137,10 @@
   gap: var(--gap-xl);
 }
 .add-edit-and-delete-buttons-a-parent,
-.frame-parent1 {
+.frame-parent2 {
   background-color: var(--color-white);
 }
-.frame-div {
+.frame-parent1 {
   align-self: stretch;
   display: flex;
   flex-direction: column;
@@ -172,7 +155,7 @@
   display: inline-block;
   width: 859px;
 }
-.frame-parent3 {
+.frame-parent4 {
   align-self: stretch;
   display: flex;
   flex-direction: row;
@@ -187,7 +170,7 @@
   height: 242px;
   object-fit: cover;
 }
-.frame-parent2,
+.frame-parent3,
 .this-will-open-the-following-p-parent {
   align-self: stretch;
   background-color: var(--color-white);
@@ -200,7 +183,7 @@
   padding: 0 var(--padding-17xl);
   gap: var(--gap-xl);
 }
-.frame-parent2 {
+.frame-parent3 {
   flex-direction: column;
   align-items: flex-start;
   gap: var(--gap-27xl);
@@ -211,30 +194,25 @@
   line-height: 20px;
   font-weight: 600;
 }
-.log-in-wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
 .as-a-super-administrator-you-parent {
   align-self: stretch;
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
   padding: 0 60px;
+  gap: var(--gap-xl);
   font-size: var(--font-size-xl);
   color: var(--color-black);
 }
 .frame-group,
 .frame-parent,
-.frame-parent7 {
+.frame-parent8 {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
 }
-.frame-parent7 {
+.frame-parent8 {
   align-self: stretch;
   align-items: flex-start;
   gap: var(--gap-27xl);
@@ -257,7 +235,6 @@
   position: relative;
   background-color: var(--color-white);
   width: 100%;
-  height: 3995px;
   align-items: center;
   padding: 71px 50px;
   box-sizing: border-box;
@@ -271,43 +248,48 @@
   .administrator-dashboard {
     font-size: var(--font-size-9xl);
   }
-  .this-dashboard-is {
-    width: 500px;
-  }
-  .frame-container {
-    padding-left: 0;
-    padding-right: 0;
-    box-sizing: border-box;
-  }
-  .you-can-start-container {
+  .on-the-top-container {
     flex: unset;
     align-self: stretch;
   }
-  .frame-parent1,
+  .on-the-top-of-the-panel-youll-parent {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .frame-div {
+    flex-direction: column-reverse;
+  }
+  .frame-container,
+  .frame-div {
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .frame-parent2,
   .you-can-start-the-device-creat-parent {
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
   }
-  .frame-parent1 {
+  .frame-parent2 {
     flex-direction: column-reverse;
   }
   .add-edit-and-delete-buttons-a-parent {
     flex-direction: column;
   }
   .add-edit-and-delete-buttons-a-parent,
-  .frame-div,
-  .frame-parent3 {
+  .frame-parent1,
+  .frame-parent4 {
     align-items: flex-start;
     justify-content: flex-start;
   }
-  .frame-parent3 {
+  .frame-parent4 {
     flex-direction: column;
   }
   .this-will-open-the-following-p-parent {
     flex-direction: column-reverse;
   }
-  .frame-parent2,
+  .frame-parent3,
   .this-will-open-the-following-p-parent {
     align-items: flex-start;
     justify-content: flex-start;
@@ -334,42 +316,38 @@
   .the-goal-of-container {
     font-size: var(--font-size-xs);
   }
-  .this-dashboard-is {
-    font-size: var(--font-size-base);
-  }
-  .select-desired-company {
-    font-size: 14px;
+  .this-dashboard-is-only-accesib-wrapper {
+    width: auto;
+    align-self: unset;
   }
   .on-the-top-container {
     font-size: var(--font-size-xs);
-  }
-  .parent {
-    flex: 1;
-    gap: 0;
-    display: none;
+    line-height: 15px;
   }
   .frame-child {
-    flex: 1;
-  }
-  .frame-container {
     align-self: stretch;
     width: auto;
+  }
+  .on-the-top-of-the-panel-youll-parent {
+    gap: var(--gap-xl);
+  }
+  .frame-div,
+  .on-the-top-of-the-panel-youll-parent {
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     padding-left: 0;
     padding-right: 0;
     box-sizing: border-box;
-    display: flex;
   }
-  .you-can-start-container {
-    font-size: var(--font-size-xs);
-    line-height: 15px;
+  .frame-container {
+    align-items: flex-start;
+    justify-content: flex-start;
   }
   .you-can-start-the-device-creat-parent {
     gap: var(--gap-xl);
   }
   .add-edit-and-delete-buttons-a-parent,
-  .frame-parent1,
+  .frame-parent2,
   .you-can-start-the-device-creat-parent {
     align-items: center;
     justify-content: flex-start;
@@ -380,11 +358,11 @@
   .add-edit-and-delete-buttons-a-parent {
     gap: var(--gap-xl);
   }
-  .frame-div {
+  .frame-parent1 {
     align-items: flex-start;
     justify-content: flex-start;
   }
-  .frame-parent3,
+  .frame-parent4,
   .this-will-open-the-following-p-parent {
     align-items: center;
     justify-content: flex-start;
@@ -395,7 +373,7 @@
   .this-will-open-the-following-p-parent {
     gap: var(--gap-xl);
   }
-  .frame-parent2 {
+  .frame-parent3 {
     align-items: flex-start;
     justify-content: flex-start;
   }
@@ -431,41 +409,30 @@
   }
   .this-dashboard-is {
     font-size: var(--font-size-base);
-    flex: 1;
   }
   .this-dashboard-is-only-accesib-wrapper {
     align-items: flex-start;
     justify-content: flex-start;
   }
-  .select-desired-company {
-    font-size: var(--font-size-base);
-  }
   .on-the-top-container {
     font-size: var(--font-size-xs);
-  }
-  .parent {
-    display: none;
   }
   .frame-child {
     width: 323px;
   }
-  .frame-container {
-    width: 323px;
-    align-items: center;
-    justify-content: center;
+  .frame-div,
+  .on-the-top-of-the-panel-youll-parent {
+    padding-left: 0;
+    padding-right: 0;
     box-sizing: border-box;
-    padding: 0;
   }
   .create-a-new {
     font-size: var(--font-size-base);
   }
-  .you-can-start-container {
-    font-size: var(--font-size-xs);
-  }
   .add-edit-and-delete-buttons-a-parent,
   .as-a-super-administrator-you-parent,
-  .frame-parent1,
-  .frame-parent3,
+  .frame-parent2,
+  .frame-parent4,
   .this-will-open-the-following-p-parent,
   .you-can-start-the-device-creat-parent {
     padding-left: 0;
