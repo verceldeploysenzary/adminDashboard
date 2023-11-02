@@ -1,0 +1,474 @@
+.getting-started-with {
+  flex: 1;
+  position: relative;
+  line-height: 20px;
+}
+.getting-started-with-iotlogiq-wrapper {
+  align-self: stretch;
+  height: 55px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.administrator-dashboard {
+  position: relative;
+  line-height: 20px;
+}
+.the-goal-of {
+  margin: 0;
+}
+.create-customers-locations {
+  margin-bottom: 0;
+}
+.create-customers-locations-a {
+  margin: 0;
+  padding-left: 27px;
+}
+.the-goal-of-container {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-inherit);
+  line-height: 35px;
+  font-family: var(--font-inherit);
+  text-align: left;
+}
+.administrator-dashboard-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-lgi);
+  text-align: center;
+  font-size: 28px;
+}
+.this-dashboard-is {
+  align-self: stretch;
+  position: relative;
+  line-height: auto;
+  font-weight: 600;
+}
+.select-desired-company,
+.this-dashboard-is-only-accesib-wrapper {
+  font-size: var(--font-size-5xl);
+  color: var(--color-mediumvioletred);
+}
+.this-dashboard-is-only-accesib-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.select-desired-company {
+  position: relative;
+  line-height: 20px;
+  font-weight: 600;
+}
+.on-the-top-container {
+  align-self: stretch;
+  position: relative;
+  line-height: 30px;
+}
+.select-desired-company-locati-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-lgi);
+}
+.div,
+.div1 {
+  position: relative;
+  line-height: 35px;
+}
+.div1 {
+  color: #2400ff;
+}
+.parent {
+  height: 264px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 44px 0;
+  box-sizing: border-box;
+}
+.frame-child {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.frame-container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 239px;
+  font-size: var(--font-size-5xl);
+  color: red;
+}
+.create-a-new {
+  position: relative;
+  line-height: 20px;
+  font-weight: 600;
+  display: inline-block;
+  width: 859px;
+}
+.create-a-new-device-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--font-size-5xl);
+  color: var(--color-mediumvioletred);
+}
+.you-can-start-container {
+  flex: 1;
+  position: relative;
+  line-height: 30px;
+}
+.frame-item {
+  position: relative;
+  width: 323px;
+  height: 242px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.add-edit-and-delete-buttons-a-parent,
+.frame-parent1,
+.you-can-start-the-device-creat-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-17xl);
+  gap: var(--gap-xl);
+}
+.add-edit-and-delete-buttons-a-parent,
+.frame-parent1 {
+  background-color: var(--color-white);
+}
+.frame-div {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-27xl);
+}
+.assign-the-device {
+  position: relative;
+  line-height: 20px;
+  font-weight: 600;
+  display: inline-block;
+  width: 859px;
+}
+.frame-parent3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-17xl);
+  gap: var(--gap-xl);
+}
+.image-1-icon {
+  position: relative;
+  width: 323px;
+  height: 242px;
+  object-fit: cover;
+}
+.frame-parent2,
+.this-will-open-the-following-p-parent {
+  align-self: stretch;
+  background-color: var(--color-white);
+  display: flex;
+  justify-content: flex-start;
+}
+.this-will-open-the-following-p-parent {
+  flex-direction: row;
+  align-items: center;
+  padding: 0 var(--padding-17xl);
+  gap: var(--gap-xl);
+}
+.frame-parent2 {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-27xl);
+}
+.log-in {
+  align-self: stretch;
+  position: relative;
+  line-height: 20px;
+  font-weight: 600;
+}
+.log-in-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.as-a-super-administrator-you-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 60px;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+}
+.frame-group,
+.frame-parent,
+.frame-parent7 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.frame-parent7 {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: var(--gap-27xl);
+  font-size: var(--font-size-5xl);
+  color: var(--color-mediumvioletred);
+}
+.frame-group,
+.frame-parent {
+  overflow: hidden;
+}
+.frame-group {
+  align-self: stretch;
+  align-items: flex-start;
+  padding: 39px 52px;
+  gap: var(--gap-27xl);
+  text-align: left;
+  font-size: var(--font-size-xl);
+}
+.frame-parent {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  align-items: center;
+  padding: 71px 50px;
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  text-align: center;
+  font-size: 36px;
+  color: var(--color-black);
+  font-family: var(--font-nunito-sans);
+}
+@media screen and (max-width: 960px) {
+  .this-dashboard-is {
+    width: 100%;
+  }
+  .frame-container {
+    padding-left: 0;
+    padding-right: 0;
+    box-sizing: border-box;
+  }
+  .you-can-start-container {
+    flex: unset;
+    align-self: stretch;
+  }
+  .frame-parent1,
+  .you-can-start-the-device-creat-parent {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .frame-parent1 {
+    flex-direction: column-reverse;
+  }
+  .add-edit-and-delete-buttons-a-parent {
+    flex-direction: column;
+  }
+  .add-edit-and-delete-buttons-a-parent,
+  .frame-div,
+  .frame-parent3 {
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .frame-parent3 {
+    flex-direction: column;
+  }
+  .this-will-open-the-following-p-parent {
+    flex-direction: column-reverse;
+  }
+  .frame-parent2,
+  .this-will-open-the-following-p-parent {
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .as-a-super-administrator-you-parent {
+    flex-direction: column;
+  }
+  .frame-group,
+  .frame-parent {
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .frame-parent {
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 420px) {
+  .getting-started-with {
+    font-size: var(--font-size-xl);
+  }
+  .administrator-dashboard {
+    font-size: var(--font-size-base);
+  }
+  .the-goal-of-container {
+    font-size: var(--font-size-xs);
+  }
+  .this-dashboard-is {
+    font-size: var(--font-size-base);
+  }
+  .select-desired-company {
+    font-size: 14px;
+  }
+  .on-the-top-container {
+    font-size: var(--font-size-xs);
+  }
+  .parent {
+    flex: 1;
+    gap: 0;
+    display: none;
+  }
+  .frame-child {
+    flex: 1;
+  }
+  .frame-container {
+    align-self: stretch;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0;
+    padding-right: 0;
+    box-sizing: border-box;
+    display: flex;
+  }
+  .you-can-start-container {
+    font-size: var(--font-size-xs);
+    line-height: 15px;
+  }
+  .you-can-start-the-device-creat-parent {
+    gap: var(--gap-xl);
+  }
+  .add-edit-and-delete-buttons-a-parent,
+  .frame-parent1,
+  .you-can-start-the-device-creat-parent {
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 0;
+    padding-right: 0;
+    box-sizing: border-box;
+  }
+  .add-edit-and-delete-buttons-a-parent {
+    gap: var(--gap-xl);
+  }
+  .frame-div {
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .frame-parent3,
+  .this-will-open-the-following-p-parent {
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 0;
+    padding-right: 0;
+    box-sizing: border-box;
+  }
+  .this-will-open-the-following-p-parent {
+    gap: var(--gap-xl);
+  }
+  .frame-parent2 {
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .as-a-super-administrator-you-parent {
+    padding-left: 0;
+    padding-right: 0;
+    box-sizing: border-box;
+  }
+  .frame-group,
+  .frame-parent {
+    justify-content: flex-start;
+    box-sizing: border-box;
+  }
+  .frame-group {
+    align-items: flex-start;
+    padding-left: var(--padding-8xs);
+    padding-right: var(--padding-8xs);
+  }
+  .frame-parent {
+    align-items: center;
+    padding: var(--padding-21xl) var(--padding-8xs);
+  }
+}
+@media screen and (max-width: 425px) {
+  .getting-started-with {
+    font-size: var(--font-size-xl);
+  }
+  .administrator-dashboard {
+    font-size: var(--font-size-base);
+  }
+  .the-goal-of-container {
+    font-size: var(--font-size-xs);
+  }
+  .select-desired-company,
+  .this-dashboard-is {
+    font-size: var(--font-size-base);
+  }
+  .on-the-top-container {
+    font-size: var(--font-size-xs);
+  }
+  .parent {
+    display: none;
+  }
+  .frame-child {
+    width: 323px;
+  }
+  .frame-container {
+    width: 323px;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 0;
+  }
+  .create-a-new {
+    font-size: var(--font-size-base);
+  }
+  .you-can-start-container {
+    font-size: var(--font-size-xs);
+  }
+  .add-edit-and-delete-buttons-a-parent,
+  .as-a-super-administrator-you-parent,
+  .frame-parent1,
+  .frame-parent3,
+  .this-will-open-the-following-p-parent,
+  .you-can-start-the-device-creat-parent {
+    padding-left: 0;
+    padding-right: 0;
+    box-sizing: border-box;
+  }
+  .frame-group {
+    padding-left: var(--padding-8xs);
+    padding-right: var(--padding-8xs);
+    box-sizing: border-box;
+  }
+  .frame-parent {
+    padding: var(--padding-21xl) var(--padding-8xs);
+    box-sizing: border-box;
+  }
+}
