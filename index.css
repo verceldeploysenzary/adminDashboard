@@ -5,7 +5,6 @@
 }
 .getting-started-with-iotlogiq-wrapper {
   align-self: stretch;
-  height: 55px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -41,12 +40,12 @@
   justify-content: flex-start;
   gap: var(--gap-lgi);
   text-align: center;
-  font-size: 28px;
+  font-size: var(--font-size-9xl);
 }
 .this-dashboard-is {
   align-self: stretch;
   position: relative;
-  line-height: auto;
+  line-height: 20px;
   font-weight: 600;
 }
 .select-desired-company,
@@ -249,7 +248,7 @@
 .frame-group {
   align-self: stretch;
   align-items: flex-start;
-  padding: 39px 52px;
+  padding: 39px 0;
   gap: var(--gap-27xl);
   text-align: left;
   font-size: var(--font-size-xl);
@@ -258,6 +257,7 @@
   position: relative;
   background-color: var(--color-white);
   width: 100%;
+  height: 3995px;
   align-items: center;
   padding: 71px 50px;
   box-sizing: border-box;
@@ -268,8 +268,11 @@
   font-family: var(--font-nunito-sans);
 }
 @media screen and (max-width: 960px) {
+  .administrator-dashboard {
+    font-size: var(--font-size-9xl);
+  }
   .this-dashboard-is {
-    width: 100%;
+    width: 500px;
   }
   .frame-container {
     padding-left: 0;
@@ -426,8 +429,15 @@
   .the-goal-of-container {
     font-size: var(--font-size-xs);
   }
-  .select-desired-company,
   .this-dashboard-is {
+    font-size: var(--font-size-base);
+    flex: 1;
+  }
+  .this-dashboard-is-only-accesib-wrapper {
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .select-desired-company {
     font-size: var(--font-size-base);
   }
   .on-the-top-container {
@@ -470,5 +480,14 @@
   .frame-parent {
     padding: var(--padding-21xl) var(--padding-8xs);
     box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 620px) {
+  .administrator-dashboard,
+  .getting-started-with {
+    font-size: var(--font-size-xl);
+  }
+  .the-goal-of-container {
+    font-size: 18px;
   }
 }
