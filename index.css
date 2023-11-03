@@ -14,7 +14,7 @@
   position: relative;
   line-height: 20px;
 }
-.the-goal-of {
+.this-tutorials-goal {
   margin: 0;
 }
 .create-customers-locations {
@@ -24,7 +24,7 @@
   margin: 0;
   padding-left: 27px;
 }
-.the-goal-of-container {
+.this-tutorials-goal-container {
   align-self: stretch;
   position: relative;
   font-size: var(--font-inherit);
@@ -38,27 +38,29 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: 19px;
+  gap: var(--gap-lgi);
   text-align: center;
   font-size: var(--font-size-9xl);
 }
-.this-dashboard-is {
+.this-dashboard-can {
   align-self: stretch;
   position: relative;
   line-height: 20px;
   font-weight: 600;
 }
-.this-dashboard-is-only-accesib-wrapper {
+.this-dashboard-can-only-be-acc-wrapper {
   align-self: stretch;
 }
-.select-desired-company-locati-wrapper,
-.this-dashboard-is-only-accesib-wrapper {
+.select-the-desired-company-lo-wrapper,
+.this-dashboard-can-only-be-acc-wrapper {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
+  font-size: var(--font-size-5xl);
+  color: var(--color-mediumvioletred);
 }
-.on-the-top-container {
+.in-the-top-container {
   flex: 1;
   position: relative;
   line-height: 30px;
@@ -69,28 +71,32 @@
   height: 242px;
   object-fit: cover;
 }
-.frame-container,
 .frame-div,
-.on-the-top-of-the-panel-youll-parent {
+.in-the-top-section-of-the-dash-parent {
   align-self: stretch;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
   gap: var(--gap-xl);
-  font-size: var(--font-size-xl);
-  color: var(--color-black);
 }
-.frame-container,
 .frame-div {
   background-color: var(--color-white);
 }
+.frame-inner {
+  position: relative;
+  width: 323px;
+  height: 242px;
+  object-fit: cover;
+}
 .frame-container {
+  align-self: stretch;
+  background-color: var(--color-white);
+  display: flex;
   flex-direction: column;
   align-items: flex-start;
+  justify-content: flex-start;
   gap: var(--gap-27xl);
-  font-size: var(--font-size-5xl);
-  color: var(--color-mediumvioletred);
 }
 .create-a-new {
   position: relative;
@@ -99,15 +105,7 @@
   display: inline-block;
   width: 859px;
 }
-.create-a-new-device-wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  font-size: var(--font-size-5xl);
-  color: var(--color-mediumvioletred);
-}
-.frame-inner {
+.frame-icon {
   position: relative;
   width: 323px;
   height: 242px;
@@ -115,26 +113,21 @@
   flex-shrink: 0;
   object-fit: cover;
 }
-.add-edit-and-delete-buttons-a-parent,
-.frame-parent2,
-.you-can-start-the-device-creat-parent {
+.frame-parent1,
+.frame-parent3 {
   align-self: stretch;
   display: flex;
+  justify-content: flex-start;
+}
+.frame-parent3 {
+  background-color: var(--color-white);
   flex-direction: row;
   align-items: center;
-  justify-content: flex-start;
   gap: var(--gap-xl);
 }
-.add-edit-and-delete-buttons-a-parent,
-.frame-parent2 {
-  background-color: var(--color-white);
-}
 .frame-parent1 {
-  align-self: stretch;
-  display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: flex-start;
   gap: var(--gap-27xl);
 }
 .assign-the-device {
@@ -144,7 +137,8 @@
   display: inline-block;
   width: 859px;
 }
-.frame-parent4 {
+.image-1-parent,
+.to-assign-a-device-click-on-t-parent {
   align-self: stretch;
   display: flex;
   flex-direction: row;
@@ -152,36 +146,8 @@
   justify-content: flex-start;
   gap: var(--gap-xl);
 }
-.image-1-icon {
-  position: relative;
-  width: 323px;
-  height: 242px;
-  object-fit: cover;
-}
-.complete-the-user-information-parent,
-.frame-parent3,
-.this-will-open-the-following-p-parent {
-  align-self: stretch;
+.image-1-parent {
   background-color: var(--color-white);
-  display: flex;
-  justify-content: flex-start;
-}
-.this-will-open-the-following-p-parent {
-  flex-direction: row;
-  align-items: center;
-  padding: 0 36px;
-  gap: var(--gap-xl);
-}
-.complete-the-user-information-parent,
-.frame-parent3 {
-  flex-direction: column;
-  align-items: flex-start;
-  gap: var(--gap-27xl);
-}
-.complete-the-user-information-parent {
-  flex-direction: row;
-  align-items: center;
-  gap: var(--gap-xl);
 }
 .log-in {
   align-self: stretch;
@@ -189,12 +155,15 @@
   line-height: 20px;
   font-weight: 600;
 }
-.frame-wrapper {
-  align-self: stretch;
+.frame-wrapper,
+.log-in-wrapper {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
+}
+.frame-wrapper {
+  align-self: stretch;
   font-size: var(--font-size-5xl);
   color: var(--color-mediumvioletred);
 }
@@ -211,7 +180,7 @@
   align-items: center;
   justify-content: center;
 }
-.frame-child7 {
+.frame-child8 {
   position: relative;
   width: 650px;
   height: 366px;
@@ -226,19 +195,39 @@
   justify-content: center;
 }
 .frame-wrapper3 {
-  padding: 0 97px;
+  padding: 0 var(--padding-78xl);
+}
+.you-can-access1 {
+  flex: 1;
+  position: relative;
+  line-height: 35px;
+}
+.image-4-icon {
+  position: relative;
+  width: 385px;
+  height: 219.4px;
+  object-fit: cover;
 }
 .frame-group,
-.frame-parent {
-  overflow: hidden;
+.frame-parent,
+.frame-wrapper4 {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
 }
+.frame-wrapper4 {
+  align-self: stretch;
+  background-color: var(--color-white);
+  align-items: flex-start;
+}
+.frame-group,
+.frame-parent {
+  overflow: hidden;
+}
 .frame-group {
   align-self: stretch;
   align-items: flex-start;
-  padding: 39px 0;
+  padding: var(--padding-20xl) 0;
   gap: var(--gap-27xl);
   text-align: left;
   font-size: var(--font-size-xl);
@@ -248,11 +237,11 @@
   background-color: var(--color-white);
   width: 100%;
   align-items: center;
-  padding: 71px 50px;
+  padding: var(--padding-52xl) var(--padding-31xl);
   box-sizing: border-box;
   gap: var(--gap-xl);
   text-align: center;
-  font-size: 36px;
+  font-size: var(--font-size-17xl);
   color: var(--color-black);
   font-family: var(--font-nunito-sans);
 }
@@ -260,11 +249,11 @@
   .administrator-dashboard {
     font-size: var(--font-size-9xl);
   }
-  .on-the-top-container {
+  .in-the-top-container {
     flex: unset;
     align-self: stretch;
   }
-  .on-the-top-of-the-panel-youll-parent {
+  .in-the-top-section-of-the-dash-parent {
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
@@ -277,43 +266,34 @@
     align-items: flex-start;
     justify-content: flex-start;
   }
-  .frame-parent2,
-  .you-can-start-the-device-creat-parent {
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-  }
-  .frame-parent2 {
-    flex-direction: column-reverse;
-  }
-  .add-edit-and-delete-buttons-a-parent {
+  .frame-parent3 {
     flex-direction: column;
   }
-  .add-edit-and-delete-buttons-a-parent,
   .frame-parent1,
-  .frame-parent4 {
+  .frame-parent3,
+  .to-assign-a-device-click-on-t-parent {
     align-items: flex-start;
     justify-content: flex-start;
   }
-  .frame-parent4 {
+  .to-assign-a-device-click-on-t-parent {
     flex-direction: column;
   }
-  .this-will-open-the-following-p-parent {
-    flex-direction: column-reverse;
-  }
-  .frame-parent3,
-  .this-will-open-the-following-p-parent {
-    align-items: flex-start;
-    justify-content: flex-start;
-  }
-  .complete-the-user-information-parent,
+  .image-1-parent,
   .once-logged-in-youll-be-redir-wrapper {
     flex-direction: column-reverse;
     align-items: flex-start;
     justify-content: flex-start;
   }
+  .you-can-access1 {
+    flex: unset;
+    align-self: stretch;
+  }
+  .frame-wrapper4 {
+    flex-direction: column-reverse;
+  }
   .frame-group,
-  .frame-parent {
+  .frame-parent,
+  .frame-wrapper4 {
     align-items: flex-start;
     justify-content: flex-start;
   }
@@ -328,15 +308,15 @@
   .administrator-dashboard {
     font-size: var(--font-size-base);
   }
-  .the-goal-of-container {
+  .this-tutorials-goal-container {
     font-size: var(--font-size-xs);
     line-height: 15px;
   }
-  .this-dashboard-is-only-accesib-wrapper {
+  .this-dashboard-can-only-be-acc-wrapper {
     width: auto;
     align-self: unset;
   }
-  .on-the-top-container {
+  .in-the-top-container {
     font-size: var(--font-size-xs);
     line-height: 15px;
   }
@@ -344,62 +324,43 @@
     align-self: stretch;
     width: auto;
   }
-  .on-the-top-of-the-panel-youll-parent {
+  .in-the-top-section-of-the-dash-parent {
     gap: var(--gap-xl);
   }
   .frame-div,
-  .on-the-top-of-the-panel-youll-parent {
+  .in-the-top-section-of-the-dash-parent {
     align-items: center;
     justify-content: flex-start;
     padding-left: 0;
     padding-right: 0;
     box-sizing: border-box;
   }
-  .frame-container {
+  .frame-container,
+  .frame-parent3 {
     align-items: flex-start;
     justify-content: flex-start;
   }
-  .you-can-start-the-device-creat-parent {
+  .frame-parent3 {
     gap: var(--gap-xl);
-  }
-  .add-edit-and-delete-buttons-a-parent,
-  .frame-parent2,
-  .you-can-start-the-device-creat-parent {
     align-items: center;
-    justify-content: flex-start;
     padding-left: 0;
     padding-right: 0;
     box-sizing: border-box;
-  }
-  .add-edit-and-delete-buttons-a-parent {
-    gap: var(--gap-xl);
   }
   .frame-parent1 {
     align-items: flex-start;
     justify-content: flex-start;
   }
-  .frame-parent4,
-  .this-will-open-the-following-p-parent {
+  .image-1-parent,
+  .to-assign-a-device-click-on-t-parent {
     align-items: center;
     justify-content: flex-start;
     padding-left: 0;
     padding-right: 0;
     box-sizing: border-box;
   }
-  .this-will-open-the-following-p-parent {
+  .image-1-parent {
     gap: var(--gap-xl);
-  }
-  .frame-parent3 {
-    align-items: flex-start;
-    justify-content: flex-start;
-  }
-  .complete-the-user-information-parent {
-    gap: var(--gap-xl);
-    align-items: center;
-    justify-content: flex-start;
-    padding-left: 0;
-    padding-right: 0;
-    box-sizing: border-box;
   }
   .once-logged-in {
     font-size: var(--font-size-xs);
@@ -408,12 +369,24 @@
   .once-logged-in-youll-be-redir-wrapper {
     gap: var(--gap-xl);
     align-items: center;
+    justify-content: flex-start;
     padding-left: 0;
     padding-right: 0;
+    box-sizing: border-box;
+  }
+  .you-can-access1 {
+    font-size: var(--font-size-xs);
+    line-height: 15px;
+  }
+  .image-4-icon {
+    width: 323px;
+  }
+  .frame-wrapper4 {
+    align-items: flex-start;
+    justify-content: flex-start;
   }
   .frame-group,
-  .frame-parent,
-  .once-logged-in-youll-be-redir-wrapper {
+  .frame-parent {
     justify-content: flex-start;
     box-sizing: border-box;
   }
@@ -434,24 +407,24 @@
   .administrator-dashboard {
     font-size: var(--font-size-base);
   }
-  .the-goal-of-container {
+  .this-tutorials-goal-container {
     font-size: var(--font-size-xs);
   }
-  .this-dashboard-is {
+  .this-dashboard-can {
     font-size: var(--font-size-base);
   }
-  .this-dashboard-is-only-accesib-wrapper {
+  .this-dashboard-can-only-be-acc-wrapper {
     align-items: flex-start;
     justify-content: flex-start;
   }
-  .on-the-top-container {
+  .in-the-top-container {
     font-size: var(--font-size-xs);
   }
   .frame-child {
     width: 323px;
   }
   .frame-div,
-  .on-the-top-of-the-panel-youll-parent {
+  .in-the-top-section-of-the-dash-parent {
     padding-left: 0;
     padding-right: 0;
     box-sizing: border-box;
@@ -459,12 +432,9 @@
   .create-a-new {
     font-size: var(--font-size-base);
   }
-  .add-edit-and-delete-buttons-a-parent,
-  .complete-the-user-information-parent,
-  .frame-parent2,
-  .frame-parent4,
-  .this-will-open-the-following-p-parent,
-  .you-can-start-the-device-creat-parent {
+  .frame-parent3,
+  .image-1-parent,
+  .to-assign-a-device-click-on-t-parent {
     padding-left: 0;
     padding-right: 0;
     box-sizing: border-box;
@@ -477,13 +447,16 @@
     padding-right: 0;
     box-sizing: border-box;
   }
+  .you-can-access1 {
+    font-size: var(--font-size-xs);
+  }
   .frame-group {
     padding-left: var(--padding-8xs);
     padding-right: var(--padding-8xs);
     box-sizing: border-box;
   }
   .frame-parent {
-    padding: var(--padding-21xl) 20px;
+    padding: var(--padding-21xl) var(--padding-xl);
     box-sizing: border-box;
   }
 }
@@ -494,8 +467,11 @@
   }
 }
 @media screen and (max-width: 800px) {
-  .frame-child7 {
+  .frame-child8 {
     width: 323px;
     height: 182px;
+  }
+  .image-4-icon {
+    width: 323px;
   }
 }
