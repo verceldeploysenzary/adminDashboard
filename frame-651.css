@@ -1,0 +1,428 @@
+.getting-started-with1 {
+  flex: 1;
+  position: relative;
+  line-height: 20px;
+}
+.getting-started-with-iotlogiq-container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+  font-size: var(--font-size-17xl);
+}
+.administrator-dashboard1 {
+  position: relative;
+  line-height: 20px;
+}
+.this-tutorials-goal1 {
+  margin: 0;
+}
+.create-customers-locations1 {
+  margin-bottom: 0;
+}
+.create-customers-locations-a1 {
+  margin: 0;
+  padding-left: var(--padding-8xl);
+}
+.this-tutorials-goal-container1 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-inherit);
+  line-height: 35px;
+  font-family: var(--font-inherit);
+  text-align: left;
+}
+.administrator-dashboard-group {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-lgi);
+  text-align: center;
+  font-size: var(--font-size-9xl);
+}
+.this-dashboard-can1 {
+  align-self: stretch;
+  position: relative;
+  line-height: 20px;
+  font-weight: 600;
+}
+.this-dashboard-can-only-be-acc-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--font-size-5xl);
+  color: var(--color-mediumvioletred);
+}
+.in-the-top-container1 {
+  align-self: stretch;
+  position: relative;
+  line-height: 30px;
+}
+.in-the-top-section-of-the-dash-wrapper {
+  align-self: stretch;
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.frame-child11 {
+  position: relative;
+  width: 650px;
+  height: 366px;
+  object-fit: cover;
+}
+.frame-wrapper5 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.frame-child13 {
+  position: relative;
+  width: 323px;
+  height: 242px;
+  object-fit: cover;
+}
+.you-can-click1 {
+  flex: 1;
+  position: relative;
+  line-height: 30px;
+}
+.frame-parent11 {
+  align-self: stretch;
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.create-a-new-device-container,
+.frame-parent10 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-parent10 {
+  align-self: stretch;
+  background-color: var(--color-white);
+  gap: var(--gap-27xl);
+}
+.create-a-new-device-container {
+  width: 384px;
+  font-size: var(--font-size-5xl);
+  color: var(--color-mediumvioletred);
+}
+.frame-child14 {
+  position: relative;
+  width: 323px;
+  height: 242px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.frame-parent12,
+.frame-parent9,
+.you-can-start-creating-a-new-d-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.frame-parent12,
+.frame-parent9 {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-27xl);
+}
+.frame-parent9 {
+  overflow: hidden;
+  padding: var(--padding-20xl) 0;
+}
+.assign-the-device1 {
+  position: relative;
+  line-height: 20px;
+  font-weight: 600;
+  display: inline-block;
+  width: 859px;
+}
+.image-1-group,
+.to-assign-a-device-click-on-t-group {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.image-1-group {
+  background-color: var(--color-white);
+}
+.log-in1 {
+  align-self: stretch;
+  position: relative;
+  line-height: 20px;
+  font-weight: 600;
+}
+.frame-wrapper7,
+.log-in-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-wrapper7 {
+  align-self: stretch;
+  font-size: var(--font-size-5xl);
+  color: var(--color-mediumvioletred);
+}
+.once-logged-in1 {
+  align-self: stretch;
+  position: relative;
+  line-height: 35px;
+}
+.frame-root,
+.frame-wrapper10 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.frame-wrapper10 {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 var(--padding-78xl);
+}
+.frame-root {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  overflow: hidden;
+  justify-content: flex-start;
+  padding: var(--padding-52xl) var(--padding-31xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-nunito-sans);
+}
+@media screen and (max-width: 960px) {
+  .administrator-dashboard1 {
+    font-size: var(--font-size-9xl);
+  }
+  .in-the-top-section-of-the-dash-wrapper {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .you-can-click1 {
+    flex: unset;
+    align-self: stretch;
+  }
+  .frame-parent11 {
+    flex-direction: column-reverse;
+  }
+  .frame-parent10,
+  .frame-parent11 {
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .you-can-start-creating-a-new-d-parent {
+    flex-direction: column;
+  }
+  .frame-parent12,
+  .frame-parent9,
+  .you-can-start-creating-a-new-d-parent {
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .image-1-group,
+  .to-assign-a-device-click-on-t-group {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .image-1-group {
+    flex-direction: column-reverse;
+  }
+  .frame-root {
+    align-items: flex-start;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 420px) {
+  .getting-started-with1 {
+    font-size: var(--font-size-xl);
+  }
+  .administrator-dashboard1 {
+    font-size: var(--font-size-base);
+  }
+  .in-the-top-container1,
+  .this-tutorials-goal-container1 {
+    font-size: var(--font-size-xs);
+  }
+  .in-the-top-container1 {
+    line-height: 15px;
+  }
+  .in-the-top-section-of-the-dash-wrapper {
+    gap: var(--gap-xl);
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 0;
+    padding-right: 0;
+    box-sizing: border-box;
+  }
+  .you-can-click1 {
+    font-size: var(--font-size-xs);
+    line-height: 15px;
+  }
+  .frame-parent11 {
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 0;
+    padding-right: 0;
+    box-sizing: border-box;
+  }
+  .frame-parent10 {
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .you-can-start-creating-a-new-d-parent {
+    gap: var(--gap-xl);
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 0;
+    padding-right: 0;
+    box-sizing: border-box;
+  }
+  .frame-parent12,
+  .frame-parent9 {
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .frame-parent9 {
+    padding-left: var(--padding-8xs);
+    padding-right: var(--padding-8xs);
+    box-sizing: border-box;
+  }
+  .image-1-group,
+  .to-assign-a-device-click-on-t-group {
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 0;
+    padding-right: 0;
+    box-sizing: border-box;
+  }
+  .image-1-group {
+    gap: var(--gap-xl);
+  }
+  .once-logged-in1 {
+    font-size: var(--font-size-xs);
+    line-height: 15px;
+  }
+  .frame-root {
+    align-items: center;
+    justify-content: flex-start;
+    padding: var(--padding-21xl) var(--padding-8xs);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 425px) {
+  .getting-started-with1 {
+    font-size: var(--font-size-xl);
+  }
+  .administrator-dashboard1 {
+    font-size: var(--font-size-base);
+  }
+  .this-tutorials-goal-container1 {
+    font-size: var(--font-size-xs);
+    line-height: 30px;
+  }
+  .this-dashboard-can1 {
+    font-size: var(--font-size-base);
+  }
+  .in-the-top-container1 {
+    font-size: var(--font-size-xs);
+  }
+  .in-the-top-section-of-the-dash-wrapper {
+    padding-left: 0;
+    padding-right: 0;
+    box-sizing: border-box;
+  }
+  .you-can-click1 {
+    font-size: var(--font-size-xs);
+  }
+  .frame-parent11,
+  .you-can-start-creating-a-new-d-parent {
+    padding-left: 0;
+    padding-right: 0;
+    box-sizing: border-box;
+  }
+  .frame-parent9 {
+    padding-left: var(--padding-8xs);
+    padding-right: var(--padding-8xs);
+    box-sizing: border-box;
+  }
+  .image-1-group,
+  .to-assign-a-device-click-on-t-group {
+    padding-left: 0;
+    padding-right: 0;
+    box-sizing: border-box;
+  }
+  .once-logged-in1 {
+    font-size: var(--font-size-xs);
+    line-height: 30px;
+  }
+  .frame-root {
+    padding: var(--padding-21xl) var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 620px) {
+  .administrator-dashboard1,
+  .getting-started-with1 {
+    font-size: var(--font-size-xl);
+  }
+  .this-tutorials-goal-container1 {
+    font-size: var(--font-size-lg);
+  }
+}
+@media screen and (max-width: 800px) {
+  .getting-started-with1 {
+    font-size: var(--font-size-5xl);
+  }
+  .administrator-dashboard1 {
+    font-size: var(--font-size-3xl);
+  }
+  .in-the-top-container1,
+  .this-tutorials-goal-container1 {
+    font-size: var(--font-size-base);
+    line-height: 25px;
+  }
+  .frame-child11 {
+    width: 323px;
+    height: 182px;
+  }
+  .once-logged-in1,
+  .you-can-click1 {
+    font-size: var(--font-size-base);
+    line-height: 25px;
+  }
+}
+@media screen and (min-width: 3000px) {
+  .frame-root {
+    padding-left: var(--padding-481xl);
+    padding-right: var(--padding-481xl);
+    box-sizing: border-box;
+  }
+}

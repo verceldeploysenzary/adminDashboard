@@ -15,6 +15,8 @@ body {
   --font-size-base: 16px;
   --font-size-9xl: 28px;
   --font-size-17xl: 36px;
+  --font-size-lg: 18px;
+  --font-size-3xl: 22px;
 
   /* Colors */
   --color-white: #fff;
@@ -34,4 +36,6 @@ body {
   --padding-xl: 20px;
   --padding-20xl: 39px;
   --padding-78xl: 97px;
+  --padding-8xl: 27px;
+  --padding-481xl: 500px;
 }

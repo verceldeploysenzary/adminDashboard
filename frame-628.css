@@ -1,38 +1,27 @@
-.getting-started-with {
+.getting-started-with2 {
   flex: 1;
   position: relative;
   line-height: 20px;
 }
-.getting-started-with-iotlogiq-wrapper {
+.getting-started-with-iotlogiq-frame {
   align-self: stretch;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
 }
-.administrator-dashboard {
+.customer-dashboard {
   position: relative;
   line-height: 20px;
 }
-.this-tutorials-goal {
-  margin: 0;
-}
-.create-customers-locations {
-  margin-bottom: 0;
-}
-.create-customers-locations-a {
-  margin: 0;
-  padding-left: var(--padding-8xl);
-}
-.this-tutorials-goal-container {
+.this-tutorials-goal2 {
   align-self: stretch;
   position: relative;
-  font-size: var(--font-inherit);
+  font-size: var(--font-size-xl);
   line-height: 35px;
-  font-family: var(--font-inherit);
   text-align: left;
 }
-.administrator-dashboard-parent {
+.customer-dashboard-parent {
   align-self: stretch;
   display: flex;
   flex-direction: column;
@@ -42,189 +31,185 @@
   text-align: center;
   font-size: var(--font-size-9xl);
 }
-.this-dashboard-can {
-  align-self: stretch;
-  position: relative;
-  line-height: 20px;
-  font-weight: 600;
-}
-.this-dashboard-can-only-be-acc-wrapper {
-  align-self: stretch;
-}
-.select-the-desired-company-lo-wrapper,
-.this-dashboard-can-only-be-acc-wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  font-size: var(--font-size-5xl);
-  color: var(--color-mediumvioletred);
-}
-.in-the-top-container {
-  flex: 1;
-  position: relative;
-  line-height: 30px;
-}
-.frame-child {
-  position: relative;
-  width: 323px;
-  height: 242px;
-  object-fit: cover;
-}
-.frame-div,
-.in-the-top-section-of-the-dash-parent {
-  align-self: stretch;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
-  gap: var(--gap-xl);
-}
-.frame-div {
-  background-color: var(--color-white);
-}
-.frame-inner {
-  position: relative;
-  width: 323px;
-  height: 242px;
-  object-fit: cover;
-}
-.frame-container {
-  align-self: stretch;
-  background-color: var(--color-white);
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: var(--gap-27xl);
-}
-.create-a-new {
-  position: relative;
-  line-height: 20px;
-  font-weight: 600;
-  display: inline-block;
-  width: 859px;
-}
-.frame-icon {
-  position: relative;
-  width: 323px;
-  height: 242px;
-  overflow: hidden;
-  flex-shrink: 0;
-  object-fit: cover;
-}
-.frame-parent1,
-.frame-parent3 {
-  align-self: stretch;
-  display: flex;
-  justify-content: flex-start;
-}
-.frame-parent3 {
-  background-color: var(--color-white);
-  flex-direction: row;
-  align-items: center;
-  gap: var(--gap-xl);
-}
-.frame-parent1 {
-  flex-direction: column;
-  align-items: flex-start;
-  gap: var(--gap-27xl);
-}
-.assign-the-device {
-  position: relative;
-  line-height: 20px;
-  font-weight: 600;
-  display: inline-block;
-  width: 859px;
-}
-.image-1-parent,
-.to-assign-a-device-click-on-t-parent {
-  align-self: stretch;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
-  gap: var(--gap-xl);
-}
-.image-1-parent {
-  background-color: var(--color-white);
-}
-.log-in {
-  align-self: stretch;
-  position: relative;
-  line-height: 20px;
-  font-weight: 600;
-}
-.frame-wrapper,
-.log-in-wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-.frame-wrapper {
-  align-self: stretch;
-  font-size: var(--font-size-5xl);
-  color: var(--color-mediumvioletred);
-}
-.once-logged-in {
-  align-self: stretch;
-  position: relative;
-  line-height: 35px;
-}
-.once-logged-in-youll-be-redir-wrapper {
-  align-self: stretch;
-  background-color: var(--color-white);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-.frame-child8 {
+.frame-child25 {
   position: relative;
   width: 650px;
   height: 366px;
   object-fit: cover;
 }
-.frame-wrapper1,
-.frame-wrapper3 {
+.frame-wrapper11 {
   align-self: stretch;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-.frame-wrapper3 {
-  padding: 0 var(--padding-78xl);
+.map-panel {
+  align-self: stretch;
+  position: relative;
+  line-height: 20px;
+  font-weight: 600;
 }
-.you-can-access1 {
+.map-panel-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.located-on-the {
   flex: 1;
   position: relative;
   line-height: 35px;
 }
-.image-4-icon {
+.located-on-the-top-right-corne-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+}
+.area-and-assets-floor-pan-pane-wrapper,
+.frame-parent20 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--font-size-5xl);
+  color: var(--color-mediumvioletred);
+}
+.frame-parent20 {
+  align-self: stretch;
+  background-color: var(--color-white);
+  gap: var(--gap-27xl);
+}
+.area-and-assets-floor-pan-pane-wrapper {
+  width: 384px;
+}
+.when-an-asset-area-or-device-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.markers-in-this {
+  position: relative;
+  line-height: 35px;
+  display: inline-block;
+  width: 757px;
+}
+.additional-markers-can {
+  align-self: stretch;
+  position: relative;
+  line-height: 35px;
+}
+.markers-in-this-section-can-be-parent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10px;
+}
+.frame-parent21,
+.frame-parent22 {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+}
+.frame-parent22 {
+  background-color: var(--color-white);
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-xl);
+}
+.frame-parent21 {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-27xl);
+}
+.device-panel {
+  align-self: stretch;
+  position: relative;
+  line-height: 20px;
+  font-weight: 600;
+}
+.device-panel-wrapper {
+  width: 172px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--font-size-5xl);
+  color: var(--color-mediumvioletred);
+}
+.image-3-icon {
+  position: relative;
+  width: 323px;
+  height: 242px;
+  object-fit: cover;
+}
+.image-3-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.depending-on-the4 {
+  align-self: stretch;
+  position: relative;
+  line-height: 35px;
+}
+.depending-on-the-device-profil-frame,
+.frame-wrapper12 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.depending-on-the-device-profil-frame {
+  background-color: var(--color-white);
+}
+.frame-wrapper12 {
+  padding: 0 var(--padding-78xl);
+}
+.image-4-icon1 {
   position: relative;
   width: 385px;
   height: 219.4px;
   object-fit: cover;
 }
-.frame-group,
-.frame-parent,
-.frame-wrapper4 {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-}
-.frame-wrapper4 {
+.frame-wrapper13 {
   align-self: stretch;
   background-color: var(--color-white);
   align-items: flex-start;
 }
-.frame-group,
-.frame-parent {
+.frame-parent19,
+.frame-parent23,
+.frame-top,
+.frame-wrapper13 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.frame-parent23 {
+  align-self: stretch;
+  background-color: var(--color-white);
+  align-items: flex-start;
+  gap: var(--gap-27xl);
+}
+.frame-parent19,
+.frame-top {
   overflow: hidden;
 }
-.frame-group {
+.frame-parent19 {
   align-self: stretch;
   align-items: flex-start;
   padding: var(--padding-20xl) 0;
@@ -232,7 +217,7 @@
   text-align: left;
   font-size: var(--font-size-xl);
 }
-.frame-parent {
+.frame-top {
   position: relative;
   background-color: var(--color-white);
   width: 100%;
@@ -246,127 +231,113 @@
   font-family: var(--font-nunito-sans);
 }
 @media screen and (max-width: 960px) {
-  .administrator-dashboard {
+  .customer-dashboard {
     font-size: var(--font-size-9xl);
   }
-  .in-the-top-container {
+  .located-on-the {
     flex: unset;
     align-self: stretch;
   }
-  .in-the-top-section-of-the-dash-parent {
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-  }
-  .frame-div {
-    flex-direction: column-reverse;
-  }
-  .frame-container,
-  .frame-div {
-    align-items: flex-start;
-    justify-content: flex-start;
-  }
-  .frame-parent3 {
+  .located-on-the-top-right-corne-parent {
     flex-direction: column;
   }
-  .frame-parent1,
-  .frame-parent3,
-  .to-assign-a-device-click-on-t-parent {
+  .frame-parent20,
+  .located-on-the-top-right-corne-parent,
+  .when-an-asset-area-or-device-parent {
     align-items: flex-start;
     justify-content: flex-start;
   }
-  .to-assign-a-device-click-on-t-parent {
+  .when-an-asset-area-or-device-parent {
     flex-direction: column;
   }
-  .image-1-parent,
-  .once-logged-in-youll-be-redir-wrapper {
-    flex-direction: column-reverse;
-    align-items: flex-start;
-    justify-content: flex-start;
-  }
-  .you-can-access1 {
+  .markers-in-this-section-can-be-parent {
     flex: unset;
     align-self: stretch;
   }
-  .frame-wrapper4 {
+  .frame-parent22 {
     flex-direction: column-reverse;
   }
-  .frame-group,
-  .frame-parent,
-  .frame-wrapper4 {
+  .frame-parent21,
+  .frame-parent22 {
     align-items: flex-start;
     justify-content: flex-start;
   }
-  .frame-parent {
+  .depending-on-the-device-profil-frame,
+  .image-3-parent {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .depending-on-the-device-profil-frame {
+    flex-direction: column-reverse;
+  }
+  .frame-wrapper13 {
+    flex-direction: column-reverse;
+  }
+  .frame-parent19,
+  .frame-parent23,
+  .frame-top,
+  .frame-wrapper13 {
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .frame-top {
     justify-content: center;
   }
 }
 @media screen and (max-width: 420px) {
-  .getting-started-with {
+  .getting-started-with2 {
     font-size: var(--font-size-xl);
   }
-  .administrator-dashboard {
+  .customer-dashboard {
     font-size: var(--font-size-base);
   }
-  .this-tutorials-goal-container {
+  .located-on-the,
+  .this-tutorials-goal2 {
     font-size: var(--font-size-xs);
+  }
+  .located-on-the {
     line-height: 15px;
   }
-  .this-dashboard-can-only-be-acc-wrapper {
-    width: auto;
-    align-self: unset;
-  }
-  .in-the-top-container {
-    font-size: var(--font-size-xs);
-    line-height: 15px;
-  }
-  .frame-child {
-    align-self: stretch;
-    width: auto;
-  }
-  .in-the-top-section-of-the-dash-parent {
+  .located-on-the-top-right-corne-parent {
     gap: var(--gap-xl);
-  }
-  .frame-div,
-  .in-the-top-section-of-the-dash-parent {
     align-items: center;
     justify-content: flex-start;
     padding-left: 0;
     padding-right: 0;
     box-sizing: border-box;
   }
-  .frame-container,
-  .frame-parent3 {
+  .frame-parent20 {
     align-items: flex-start;
     justify-content: flex-start;
   }
-  .frame-parent3 {
+  .when-an-asset-area-or-device-parent {
     gap: var(--gap-xl);
+  }
+  .frame-parent22,
+  .when-an-asset-area-or-device-parent {
     align-items: center;
+    justify-content: flex-start;
     padding-left: 0;
     padding-right: 0;
     box-sizing: border-box;
   }
-  .frame-parent1 {
+  .frame-parent21,
+  .image-3-parent {
     align-items: flex-start;
     justify-content: flex-start;
   }
-  .image-1-parent,
-  .to-assign-a-device-click-on-t-parent {
+  .image-3-parent {
     align-items: center;
-    justify-content: flex-start;
     padding-left: 0;
     padding-right: 0;
     box-sizing: border-box;
   }
-  .image-1-parent {
-    gap: var(--gap-xl);
-  }
-  .once-logged-in {
+  .depending-on-the4 {
     font-size: var(--font-size-xs);
     line-height: 15px;
   }
-  .once-logged-in-youll-be-redir-wrapper {
+  .depending-on-the-device-profil-frame {
     gap: var(--gap-xl);
     align-items: center;
     justify-content: flex-start;
@@ -374,104 +345,100 @@
     padding-right: 0;
     box-sizing: border-box;
   }
-  .you-can-access1 {
-    font-size: var(--font-size-xs);
-    line-height: 15px;
-  }
-  .image-4-icon {
+  .image-4-icon1 {
     width: 323px;
   }
-  .frame-wrapper4 {
+  .frame-parent23,
+  .frame-wrapper13 {
     align-items: flex-start;
     justify-content: flex-start;
   }
-  .frame-group,
-  .frame-parent {
+  .frame-parent19,
+  .frame-top {
     justify-content: flex-start;
     box-sizing: border-box;
   }
-  .frame-group {
+  .frame-parent19 {
     align-items: flex-start;
     padding-left: var(--padding-8xs);
     padding-right: var(--padding-8xs);
   }
-  .frame-parent {
+  .frame-top {
     align-items: center;
     padding: var(--padding-21xl) var(--padding-8xs);
   }
 }
 @media screen and (max-width: 425px) {
-  .getting-started-with {
+  .getting-started-with2 {
     font-size: var(--font-size-xl);
   }
-  .administrator-dashboard {
+  .customer-dashboard {
     font-size: var(--font-size-base);
   }
-  .this-tutorials-goal-container {
+  .this-tutorials-goal2 {
     font-size: var(--font-size-xs);
   }
-  .this-dashboard-can {
+  .map-panel {
     font-size: var(--font-size-base);
   }
-  .this-dashboard-can-only-be-acc-wrapper {
-    align-items: flex-start;
-    justify-content: flex-start;
-  }
-  .in-the-top-container {
+  .located-on-the {
     font-size: var(--font-size-xs);
   }
-  .frame-child {
-    width: 323px;
-  }
-  .frame-div,
-  .in-the-top-section-of-the-dash-parent {
+  .frame-parent22,
+  .image-3-parent,
+  .located-on-the-top-right-corne-parent,
+  .when-an-asset-area-or-device-parent {
     padding-left: 0;
     padding-right: 0;
     box-sizing: border-box;
   }
-  .create-a-new {
-    font-size: var(--font-size-base);
+  .depending-on-the4 {
+    font-size: var(--font-size-xs);
   }
-  .frame-parent3,
-  .image-1-parent,
-  .to-assign-a-device-click-on-t-parent {
+  .depending-on-the-device-profil-frame {
     padding-left: 0;
     padding-right: 0;
     box-sizing: border-box;
   }
-  .once-logged-in {
-    font-size: var(--font-size-xs);
-  }
-  .once-logged-in-youll-be-redir-wrapper {
-    padding-left: 0;
-    padding-right: 0;
-    box-sizing: border-box;
-  }
-  .you-can-access1 {
-    font-size: var(--font-size-xs);
-  }
-  .frame-group {
+  .frame-parent19 {
     padding-left: var(--padding-8xs);
     padding-right: var(--padding-8xs);
     box-sizing: border-box;
   }
-  .frame-parent {
+  .frame-top {
     padding: var(--padding-21xl) var(--padding-xl);
     box-sizing: border-box;
   }
 }
 @media screen and (max-width: 620px) {
-  .administrator-dashboard,
-  .getting-started-with {
+  .customer-dashboard,
+  .getting-started-with2 {
     font-size: var(--font-size-xl);
+  }
+  .this-tutorials-goal2 {
+    font-size: var(--font-size-lg);
   }
 }
 @media screen and (max-width: 800px) {
-  .frame-child8 {
+  .getting-started-with2 {
+    font-size: var(--font-size-5xl);
+  }
+  .customer-dashboard {
+    font-size: var(--font-size-3xl);
+  }
+  .this-tutorials-goal2 {
+    font-size: var(--font-size-base);
+    line-height: 25px;
+  }
+  .frame-child25 {
     width: 323px;
     height: 182px;
   }
-  .image-4-icon {
-    width: 323px;
+  .additional-markers-can,
+  .depending-on-the4,
+  .located-on-the,
+  .markers-in-this {
+    font-size: var(--font-size-base);
+    line-height: 25px;
   }
 }
