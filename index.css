@@ -1,9 +1,9 @@
-.getting-started-with1 {
+.getting-started-with {
   flex: 1;
   position: relative;
   line-height: 20px;
 }
-.getting-started-with-iotlogiq-container {
+.getting-started-with-iotlogiq-wrapper {
   align-self: stretch;
   display: flex;
   flex-direction: row;
@@ -12,21 +12,21 @@
   text-align: center;
   font-size: var(--font-size-17xl);
 }
-.administrator-dashboard1 {
+.administrator-dashboard {
   position: relative;
   line-height: 20px;
 }
-.this-tutorials-goal1 {
+.this-tutorials-goal {
   margin: 0;
 }
-.create-customers-locations1 {
+.create-customers-locations {
   margin-bottom: 0;
 }
-.create-customers-locations-a1 {
+.create-customers-locations-a {
   margin: 0;
   padding-left: var(--padding-8xl);
 }
-.this-tutorials-goal-container1 {
+.this-tutorials-goal-container {
   align-self: stretch;
   position: relative;
   font-size: var(--font-inherit);
@@ -34,7 +34,7 @@
   font-family: var(--font-inherit);
   text-align: left;
 }
-.administrator-dashboard-group {
+.administrator-dashboard-parent {
   align-self: stretch;
   display: flex;
   flex-direction: column;
@@ -44,13 +44,13 @@
   text-align: center;
   font-size: var(--font-size-9xl);
 }
-.this-dashboard-can1 {
+.this-dashboard-can {
   align-self: stretch;
   position: relative;
   line-height: 20px;
   font-weight: 600;
 }
-.this-dashboard-can-only-be-acc-container {
+.this-dashboard-can-only-be-acc-wrapper {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -58,7 +58,7 @@
   font-size: var(--font-size-5xl);
   color: var(--color-mediumvioletred);
 }
-.in-the-top-container1 {
+.in-the-top-container {
   align-self: stretch;
   position: relative;
   line-height: 30px;
@@ -71,31 +71,31 @@
   align-items: center;
   justify-content: center;
 }
-.frame-child11 {
+.frame-child {
   position: relative;
   width: 650px;
   height: 366px;
   object-fit: cover;
 }
-.frame-wrapper5 {
+.frame-wrapper {
   align-self: stretch;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-.frame-child13 {
+.frame-inner {
   position: relative;
   width: 323px;
   height: 242px;
   object-fit: cover;
 }
-.you-can-click1 {
+.you-can-click {
   flex: 1;
   position: relative;
   line-height: 30px;
 }
-.frame-parent11 {
+.frame-parent1 {
   align-self: stretch;
   background-color: var(--color-white);
   display: flex;
@@ -104,33 +104,23 @@
   justify-content: flex-start;
   gap: var(--gap-xl);
 }
-.create-a-new-device-container,
-.frame-parent10 {
+.create-a-new-device-wrapper,
+.frame-container {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
 }
-.frame-parent10 {
+.frame-container {
   align-self: stretch;
   background-color: var(--color-white);
   gap: var(--gap-27xl);
 }
-.create-a-new-device-container {
+.create-a-new-device-wrapper {
   width: 384px;
   font-size: var(--font-size-5xl);
   color: var(--color-mediumvioletred);
 }
-.frame-child14 {
-  position: relative;
-  width: 323px;
-  height: 242px;
-  overflow: hidden;
-  flex-shrink: 0;
-  object-fit: cover;
-}
-.frame-parent12,
-.frame-parent9,
 .you-can-start-creating-a-new-d-parent {
   align-self: stretch;
   display: flex;
@@ -139,25 +129,42 @@
   justify-content: flex-start;
   gap: var(--gap-xl);
 }
-.frame-parent12,
-.frame-parent9 {
+.frame-icon {
+  position: relative;
+  width: 323px;
+  height: 242px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.frame-group,
+.frame-parent2 {
+  align-self: stretch;
+  display: flex;
   flex-direction: column;
   align-items: flex-start;
+  justify-content: flex-start;
   gap: var(--gap-27xl);
 }
-.frame-parent9 {
+.frame-group {
   overflow: hidden;
   padding: var(--padding-20xl) 0;
 }
-.assign-the-device1 {
+.assign-the-device {
   position: relative;
   line-height: 20px;
   font-weight: 600;
   display: inline-block;
   width: 859px;
 }
-.image-1-group,
-.to-assign-a-device-click-on-t-group {
+.image-6-icon {
+  position: relative;
+  width: 360.5px;
+  height: 242px;
+  object-fit: cover;
+}
+.image-1-parent,
+.to-assign-a-device-click-on-t-parent {
   align-self: stretch;
   display: flex;
   flex-direction: row;
@@ -165,44 +172,44 @@
   justify-content: flex-start;
   gap: var(--gap-xl);
 }
-.image-1-group {
+.image-1-parent {
   background-color: var(--color-white);
 }
-.log-in1 {
+.log-in {
   align-self: stretch;
   position: relative;
   line-height: 20px;
   font-weight: 600;
 }
-.frame-wrapper7,
-.log-in-container {
+.frame-wrapper1,
+.log-in-wrapper {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
 }
-.frame-wrapper7 {
+.frame-wrapper1 {
   align-self: stretch;
   font-size: var(--font-size-5xl);
   color: var(--color-mediumvioletred);
 }
-.once-logged-in1 {
+.once-logged-in {
   align-self: stretch;
   position: relative;
   line-height: 35px;
 }
-.frame-root,
-.frame-wrapper10 {
+.frame-parent,
+.frame-wrapper4 {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.frame-wrapper10 {
+.frame-wrapper4 {
   align-self: stretch;
   justify-content: center;
   padding: 0 var(--padding-78xl);
 }
-.frame-root {
+.frame-parent {
   position: relative;
   background-color: var(--color-white);
   width: 100%;
@@ -217,7 +224,7 @@
   font-family: var(--font-nunito-sans);
 }
 @media screen and (max-width: 960px) {
-  .administrator-dashboard1 {
+  .administrator-dashboard {
     font-size: var(--font-size-9xl);
   }
   .in-the-top-section-of-the-dash-wrapper {
@@ -225,53 +232,53 @@
     align-items: flex-start;
     justify-content: flex-start;
   }
-  .you-can-click1 {
+  .you-can-click {
     flex: unset;
     align-self: stretch;
   }
-  .frame-parent11 {
+  .frame-parent1 {
     flex-direction: column-reverse;
   }
-  .frame-parent10,
-  .frame-parent11 {
+  .frame-container,
+  .frame-parent1 {
     align-items: flex-start;
     justify-content: flex-start;
   }
   .you-can-start-creating-a-new-d-parent {
     flex-direction: column;
   }
-  .frame-parent12,
-  .frame-parent9,
+  .frame-group,
+  .frame-parent2,
   .you-can-start-creating-a-new-d-parent {
     align-items: flex-start;
     justify-content: flex-start;
   }
-  .image-1-group,
-  .to-assign-a-device-click-on-t-group {
+  .image-1-parent,
+  .to-assign-a-device-click-on-t-parent {
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
   }
-  .image-1-group {
+  .image-1-parent {
     flex-direction: column-reverse;
   }
-  .frame-root {
+  .frame-parent {
     align-items: flex-start;
     justify-content: center;
   }
 }
 @media screen and (max-width: 420px) {
-  .getting-started-with1 {
+  .getting-started-with {
     font-size: var(--font-size-xl);
   }
-  .administrator-dashboard1 {
+  .administrator-dashboard {
     font-size: var(--font-size-base);
   }
-  .in-the-top-container1,
-  .this-tutorials-goal-container1 {
+  .in-the-top-container,
+  .this-tutorials-goal-container {
     font-size: var(--font-size-xs);
   }
-  .in-the-top-container1 {
+  .in-the-top-container {
     line-height: 15px;
   }
   .in-the-top-section-of-the-dash-wrapper {
@@ -282,18 +289,18 @@
     padding-right: 0;
     box-sizing: border-box;
   }
-  .you-can-click1 {
+  .you-can-click {
     font-size: var(--font-size-xs);
     line-height: 15px;
   }
-  .frame-parent11 {
+  .frame-parent1 {
     align-items: center;
     justify-content: flex-start;
     padding-left: 0;
     padding-right: 0;
     box-sizing: border-box;
   }
-  .frame-parent10 {
+  .frame-container {
     align-items: flex-start;
     justify-content: flex-start;
   }
@@ -305,32 +312,32 @@
     padding-right: 0;
     box-sizing: border-box;
   }
-  .frame-parent12,
-  .frame-parent9 {
+  .frame-group,
+  .frame-parent2 {
     align-items: flex-start;
     justify-content: flex-start;
   }
-  .frame-parent9 {
+  .frame-group {
     padding-left: var(--padding-8xs);
     padding-right: var(--padding-8xs);
     box-sizing: border-box;
   }
-  .image-1-group,
-  .to-assign-a-device-click-on-t-group {
+  .image-1-parent,
+  .to-assign-a-device-click-on-t-parent {
     align-items: center;
     justify-content: flex-start;
     padding-left: 0;
     padding-right: 0;
     box-sizing: border-box;
   }
-  .image-1-group {
+  .image-1-parent {
     gap: var(--gap-xl);
   }
-  .once-logged-in1 {
+  .once-logged-in {
     font-size: var(--font-size-xs);
     line-height: 15px;
   }
-  .frame-root {
+  .frame-parent {
     align-items: center;
     justify-content: flex-start;
     padding: var(--padding-21xl) var(--padding-8xs);
@@ -338,20 +345,20 @@
   }
 }
 @media screen and (max-width: 425px) {
-  .getting-started-with1 {
+  .getting-started-with {
     font-size: var(--font-size-xl);
   }
-  .administrator-dashboard1 {
+  .administrator-dashboard {
     font-size: var(--font-size-base);
   }
-  .this-tutorials-goal-container1 {
+  .this-tutorials-goal-container {
     font-size: var(--font-size-xs);
     line-height: 30px;
   }
-  .this-dashboard-can1 {
+  .this-dashboard-can {
     font-size: var(--font-size-base);
   }
-  .in-the-top-container1 {
+  .in-the-top-container {
     font-size: var(--font-size-xs);
   }
   .in-the-top-section-of-the-dash-wrapper {
@@ -359,68 +366,68 @@
     padding-right: 0;
     box-sizing: border-box;
   }
-  .you-can-click1 {
+  .you-can-click {
     font-size: var(--font-size-xs);
   }
-  .frame-parent11,
+  .frame-parent1,
   .you-can-start-creating-a-new-d-parent {
     padding-left: 0;
     padding-right: 0;
     box-sizing: border-box;
   }
-  .frame-parent9 {
+  .frame-group {
     padding-left: var(--padding-8xs);
     padding-right: var(--padding-8xs);
     box-sizing: border-box;
   }
-  .image-1-group,
-  .to-assign-a-device-click-on-t-group {
+  .image-1-parent,
+  .to-assign-a-device-click-on-t-parent {
     padding-left: 0;
     padding-right: 0;
     box-sizing: border-box;
   }
-  .once-logged-in1 {
+  .once-logged-in {
     font-size: var(--font-size-xs);
     line-height: 30px;
   }
-  .frame-root {
+  .frame-parent {
     padding: var(--padding-21xl) var(--padding-xl);
     box-sizing: border-box;
   }
 }
 @media screen and (max-width: 620px) {
-  .administrator-dashboard1,
-  .getting-started-with1 {
+  .administrator-dashboard,
+  .getting-started-with {
     font-size: var(--font-size-xl);
   }
-  .this-tutorials-goal-container1 {
+  .this-tutorials-goal-container {
     font-size: var(--font-size-lg);
   }
 }
 @media screen and (max-width: 800px) {
-  .getting-started-with1 {
+  .getting-started-with {
     font-size: var(--font-size-5xl);
   }
-  .administrator-dashboard1 {
+  .administrator-dashboard {
     font-size: var(--font-size-3xl);
   }
-  .in-the-top-container1,
-  .this-tutorials-goal-container1 {
+  .in-the-top-container,
+  .this-tutorials-goal-container {
     font-size: var(--font-size-base);
     line-height: 25px;
   }
-  .frame-child11 {
+  .frame-child {
     width: 323px;
     height: 182px;
   }
-  .once-logged-in1,
-  .you-can-click1 {
+  .once-logged-in,
+  .you-can-click {
     font-size: var(--font-size-base);
     line-height: 25px;
   }
 }
 @media screen and (min-width: 3000px) {
-  .frame-root {
+  .frame-parent {
     padding-left: var(--padding-1181xl);
     padding-right: var(--padding-1181xl);
     box-sizing: border-box;
