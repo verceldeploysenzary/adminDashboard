@@ -1,9 +1,9 @@
-.getting-started-with1 {
+.getting-started-with {
   flex: 1;
   position: relative;
   line-height: 20px;
 }
-.getting-started-with-iotlogiq-container {
+.getting-started-with-iotlogiq-wrapper {
   align-self: stretch;
   display: flex;
   flex-direction: row;
@@ -14,7 +14,7 @@
   position: relative;
   line-height: 20px;
 }
-.this-tutorials-goal1 {
+.this-tutorials-goal {
   align-self: stretch;
   position: relative;
   font-size: var(--font-size-xl);
@@ -31,13 +31,13 @@
   text-align: center;
   font-size: var(--font-size-9xl);
 }
-.frame-child8 {
+.frame-child {
   position: relative;
   width: 650px;
   height: 366px;
   object-fit: cover;
 }
-.frame-wrapper5 {
+.frame-wrapper {
   align-self: stretch;
   display: flex;
   flex-direction: column;
@@ -56,12 +56,18 @@
   align-items: flex-start;
   justify-content: flex-start;
 }
+.frame-item {
+  position: relative;
+  width: 323px;
+  height: 242px;
+  object-fit: cover;
+}
 .located-on-the {
   flex: 1;
   position: relative;
   line-height: 35px;
 }
-.located-on-the-top-right-corne-parent {
+.frame-div {
   align-self: stretch;
   display: flex;
   flex-direction: row;
@@ -71,8 +77,13 @@
   font-size: var(--font-size-xl);
   color: var(--color-black);
 }
-.area-and-assets-floor-pan-pane-wrapper,
-.frame-parent10 {
+.frame-container {
+  align-self: stretch;
+  background-color: var(--color-white);
+  gap: var(--gap-27xl);
+}
+.area-and-assets-floor-plan-pan-wrapper,
+.frame-container {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -80,15 +91,7 @@
   font-size: var(--font-size-5xl);
   color: var(--color-mediumvioletred);
 }
-.frame-parent10 {
-  align-self: stretch;
-  background-color: var(--color-white);
-  gap: var(--gap-27xl);
-}
-.area-and-assets-floor-pan-pane-wrapper {
-  width: 384px;
-}
-.when-an-asset-area-or-device-parent {
+.located-on-the-bottom-right-co-parent {
   align-self: stretch;
   display: flex;
   flex-direction: row;
@@ -115,19 +118,19 @@
   justify-content: center;
   gap: 10px;
 }
-.frame-parent11,
-.frame-parent12 {
+.frame-parent1,
+.frame-parent2 {
   align-self: stretch;
   display: flex;
   justify-content: flex-start;
 }
-.frame-parent12 {
+.frame-parent2 {
   background-color: var(--color-white);
   flex-direction: row;
   align-items: center;
   gap: var(--gap-xl);
 }
-.frame-parent11 {
+.frame-parent1 {
   flex-direction: column;
   align-items: flex-start;
   gap: var(--gap-27xl);
@@ -147,13 +150,7 @@
   font-size: var(--font-size-5xl);
   color: var(--color-mediumvioletred);
 }
-.image-3-icon {
-  position: relative;
-  width: 323px;
-  height: 242px;
-  object-fit: cover;
-}
-.image-3-parent {
+.you-can-access-all-information-parent {
   align-self: stretch;
   display: flex;
   flex-direction: row;
@@ -161,55 +158,55 @@
   justify-content: flex-start;
   gap: var(--gap-xl);
 }
-.depending-on-the2 {
+.depending-on-the {
   align-self: stretch;
   position: relative;
   line-height: 35px;
 }
-.depending-on-the-device-profil-container,
-.frame-wrapper6 {
+.depending-on-the-device-profil-wrapper,
+.frame-wrapper1 {
   align-self: stretch;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-.depending-on-the-device-profil-container {
+.depending-on-the-device-profil-wrapper {
   background-color: var(--color-white);
 }
-.frame-wrapper6 {
+.frame-wrapper1 {
   padding: 0 var(--padding-78xl);
 }
-.image-4-icon {
+.image-10-icon {
   position: relative;
   width: 385px;
-  height: 219.4px;
+  height: 220px;
   object-fit: cover;
 }
-.frame-wrapper7 {
+.frame-wrapper2 {
   align-self: stretch;
   background-color: var(--color-white);
   align-items: flex-start;
 }
-.frame-parent13,
-.frame-parent9,
-.frame-root,
-.frame-wrapper7 {
+.frame-group,
+.frame-parent,
+.frame-parent3,
+.frame-wrapper2 {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
 }
-.frame-parent13 {
+.frame-parent3 {
   align-self: stretch;
   background-color: var(--color-white);
   align-items: flex-start;
   gap: var(--gap-27xl);
 }
-.frame-parent9,
-.frame-root {
+.frame-group,
+.frame-parent {
   overflow: hidden;
 }
-.frame-parent9 {
+.frame-group {
   align-self: stretch;
   align-items: flex-start;
   padding: var(--padding-20xl) 0;
@@ -217,7 +214,7 @@
   text-align: left;
   font-size: var(--font-size-xl);
 }
-.frame-root {
+.frame-parent {
   position: relative;
   background-color: var(--color-white);
   width: 100%;
@@ -238,68 +235,68 @@
     flex: unset;
     align-self: stretch;
   }
-  .located-on-the-top-right-corne-parent {
+  .frame-div {
     flex-direction: column;
   }
-  .frame-parent10,
-  .located-on-the-top-right-corne-parent,
-  .when-an-asset-area-or-device-parent {
+  .frame-container,
+  .frame-div,
+  .located-on-the-bottom-right-co-parent {
     align-items: flex-start;
     justify-content: flex-start;
   }
-  .when-an-asset-area-or-device-parent {
+  .located-on-the-bottom-right-co-parent {
     flex-direction: column;
   }
   .markers-in-this-section-can-be-parent {
     flex: unset;
     align-self: stretch;
   }
-  .frame-parent12 {
+  .frame-parent2 {
     flex-direction: column-reverse;
   }
-  .frame-parent11,
-  .frame-parent12 {
+  .frame-parent1,
+  .frame-parent2 {
     align-items: flex-start;
     justify-content: flex-start;
   }
-  .depending-on-the-device-profil-container,
-  .image-3-parent {
+  .depending-on-the-device-profil-wrapper,
+  .you-can-access-all-information-parent {
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
   }
-  .depending-on-the-device-profil-container {
+  .depending-on-the-device-profil-wrapper {
     flex-direction: column-reverse;
   }
-  .frame-wrapper7 {
+  .frame-wrapper2 {
     flex-direction: column-reverse;
   }
-  .frame-parent13,
-  .frame-parent9,
-  .frame-root,
-  .frame-wrapper7 {
+  .frame-group,
+  .frame-parent,
+  .frame-parent3,
+  .frame-wrapper2 {
     align-items: flex-start;
     justify-content: flex-start;
   }
-  .frame-root {
+  .frame-parent {
     justify-content: center;
   }
 }
 @media screen and (max-width: 420px) {
-  .getting-started-with1 {
+  .getting-started-with {
     font-size: var(--font-size-xl);
   }
   .customer-dashboard {
     font-size: var(--font-size-base);
   }
   .located-on-the,
-  .this-tutorials-goal1 {
+  .this-tutorials-goal {
     font-size: var(--font-size-xs);
   }
   .located-on-the {
     line-height: 15px;
   }
-  .located-on-the-top-right-corne-parent {
+  .frame-div {
     gap: var(--gap-xl);
     align-items: center;
     justify-content: flex-start;
@@ -307,37 +304,37 @@
     padding-right: 0;
     box-sizing: border-box;
   }
-  .frame-parent10 {
+  .frame-container {
     align-items: flex-start;
     justify-content: flex-start;
   }
-  .when-an-asset-area-or-device-parent {
+  .located-on-the-bottom-right-co-parent {
     gap: var(--gap-xl);
   }
-  .frame-parent12,
-  .when-an-asset-area-or-device-parent {
+  .frame-parent2,
+  .located-on-the-bottom-right-co-parent {
     align-items: center;
     justify-content: flex-start;
     padding-left: 0;
     padding-right: 0;
     box-sizing: border-box;
   }
-  .frame-parent11,
-  .image-3-parent {
+  .frame-parent1 {
     align-items: flex-start;
     justify-content: flex-start;
   }
-  .image-3-parent {
+  .you-can-access-all-information-parent {
     align-items: center;
+    justify-content: flex-start;
     padding-left: 0;
     padding-right: 0;
     box-sizing: border-box;
   }
-  .depending-on-the2 {
+  .depending-on-the {
     font-size: var(--font-size-xs);
     line-height: 15px;
   }
-  .depending-on-the-device-profil-container {
+  .depending-on-the-device-profil-wrapper {
     gap: var(--gap-xl);
     align-items: center;
     justify-content: flex-start;
@@ -345,37 +342,34 @@
     padding-right: 0;
     box-sizing: border-box;
   }
-  .image-4-icon {
-    width: 323px;
-  }
-  .frame-parent13,
-  .frame-wrapper7 {
+  .frame-parent3,
+  .frame-wrapper2 {
     align-items: flex-start;
     justify-content: flex-start;
   }
-  .frame-parent9,
-  .frame-root {
+  .frame-group,
+  .frame-parent {
     justify-content: flex-start;
     box-sizing: border-box;
   }
-  .frame-parent9 {
+  .frame-group {
     align-items: flex-start;
     padding-left: var(--padding-8xs);
     padding-right: var(--padding-8xs);
   }
-  .frame-root {
+  .frame-parent {
     align-items: center;
     padding: var(--padding-21xl) var(--padding-8xs);
   }
 }
 @media screen and (max-width: 425px) {
-  .getting-started-with1 {
+  .getting-started-with {
     font-size: var(--font-size-xl);
   }
   .customer-dashboard {
     font-size: var(--font-size-base);
   }
-  .this-tutorials-goal1 {
+  .this-tutorials-goal {
     font-size: var(--font-size-xs);
   }
   .map-panel {
@@ -384,66 +378,70 @@
   .located-on-the {
     font-size: var(--font-size-xs);
   }
-  .frame-parent12,
-  .image-3-parent,
-  .located-on-the-top-right-corne-parent,
-  .when-an-asset-area-or-device-parent {
+  .frame-div,
+  .frame-parent2,
+  .located-on-the-bottom-right-co-parent,
+  .you-can-access-all-information-parent {
     padding-left: 0;
     padding-right: 0;
     box-sizing: border-box;
   }
-  .depending-on-the2 {
+  .depending-on-the {
     font-size: var(--font-size-xs);
   }
-  .depending-on-the-device-profil-container {
+  .depending-on-the-device-profil-wrapper {
     padding-left: 0;
     padding-right: 0;
     box-sizing: border-box;
   }
-  .frame-parent9 {
+  .frame-group {
     padding-left: var(--padding-8xs);
     padding-right: var(--padding-8xs);
     box-sizing: border-box;
   }
-  .frame-root {
+  .frame-parent {
     padding: var(--padding-21xl) var(--padding-xl);
     box-sizing: border-box;
   }
 }
 @media screen and (max-width: 620px) {
   .customer-dashboard,
-  .getting-started-with1 {
+  .getting-started-with {
     font-size: var(--font-size-xl);
   }
-  .this-tutorials-goal1 {
+  .this-tutorials-goal {
     font-size: var(--font-size-lg);
   }
 }
 @media screen and (max-width: 800px) {
-  .getting-started-with1 {
+  .getting-started-with {
     font-size: var(--font-size-5xl);
   }
   .customer-dashboard {
     font-size: var(--font-size-3xl);
   }
-  .this-tutorials-goal1 {
+  .this-tutorials-goal {
     font-size: var(--font-size-base);
     line-height: 25px;
   }
-  .frame-child8 {
+  .frame-child {
     width: 323px;
     height: 182px;
   }
   .additional-markers-can,
-  .depending-on-the2,
+  .depending-on-the,
   .located-on-the,
   .markers-in-this {
     font-size: var(--font-size-base);
     line-height: 25px;
   }
+  .image-10-icon {
+    width: 323px;
+    height: 182px;
+  }
 }
 @media screen and (min-width: 3000px) {
-  .frame-root {
+  .frame-parent {
     padding-left: var(--padding-1181xl);
     padding-right: var(--padding-1181xl);
     box-sizing: border-box;

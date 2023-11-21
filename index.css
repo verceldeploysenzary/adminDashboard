@@ -1,9 +1,9 @@
-.getting-started-with {
+.getting-started-with1 {
   flex: 1;
   position: relative;
   line-height: 20px;
 }
-.getting-started-with-iotlogiq-wrapper {
+.getting-started-with-iotlogiq-container {
   align-self: stretch;
   display: flex;
   flex-direction: row;
@@ -15,9 +15,6 @@
 .administrator-dashboard {
   position: relative;
   line-height: 20px;
-}
-.this-tutorials-goal {
-  margin: 0;
 }
 .create-customers-locations {
   margin-bottom: 0;
@@ -58,6 +55,9 @@
   font-size: var(--font-size-5xl);
   color: var(--color-mediumvioletred);
 }
+.in-the-top {
+  margin: 0;
+}
 .in-the-top-container {
   align-self: stretch;
   position: relative;
@@ -71,23 +71,23 @@
   align-items: center;
   justify-content: center;
 }
-.frame-child {
+.frame-child3 {
   position: relative;
   width: 650px;
-  height: 366px;
+  height: 377px;
   object-fit: cover;
 }
-.frame-wrapper {
+.frame-wrapper4 {
   align-self: stretch;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-.frame-inner {
+.frame-child4 {
   position: relative;
-  width: 323px;
-  height: 242px;
+  width: 650px;
+  height: 366px;
   object-fit: cover;
 }
 .you-can-click {
@@ -95,7 +95,7 @@
   position: relative;
   line-height: 30px;
 }
-.frame-parent1 {
+.frame-parent6 {
   align-self: stretch;
   background-color: var(--color-white);
   display: flex;
@@ -105,13 +105,13 @@
   gap: var(--gap-xl);
 }
 .create-a-new-device-wrapper,
-.frame-container {
+.frame-parent5 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
 }
-.frame-container {
+.frame-parent5 {
   align-self: stretch;
   background-color: var(--color-white);
   gap: var(--gap-27xl);
@@ -121,6 +121,12 @@
   font-size: var(--font-size-5xl);
   color: var(--color-mediumvioletred);
 }
+.image-5-icon {
+  position: relative;
+  width: 323px;
+  height: 242px;
+  object-fit: cover;
+}
 .you-can-start-creating-a-new-d-parent {
   align-self: stretch;
   display: flex;
@@ -129,7 +135,7 @@
   justify-content: flex-start;
   gap: var(--gap-xl);
 }
-.frame-icon {
+.frame-child6 {
   position: relative;
   width: 323px;
   height: 242px;
@@ -137,8 +143,8 @@
   flex-shrink: 0;
   object-fit: cover;
 }
-.frame-group,
-.frame-parent2 {
+.frame-parent4,
+.frame-parent7 {
   align-self: stretch;
   display: flex;
   flex-direction: column;
@@ -146,7 +152,7 @@
   justify-content: flex-start;
   gap: var(--gap-27xl);
 }
-.frame-group {
+.frame-parent4 {
   overflow: hidden;
   padding: var(--padding-20xl) 0;
 }
@@ -156,12 +162,6 @@
   font-weight: 600;
   display: inline-block;
   width: 859px;
-}
-.image-6-icon {
-  position: relative;
-  width: 360.5px;
-  height: 242px;
-  object-fit: cover;
 }
 .image-1-parent,
 .to-assign-a-device-click-on-t-parent {
@@ -181,14 +181,14 @@
   line-height: 20px;
   font-weight: 600;
 }
-.frame-wrapper1,
+.frame-wrapper6,
 .log-in-wrapper {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
 }
-.frame-wrapper1 {
+.frame-wrapper6 {
   align-self: stretch;
   font-size: var(--font-size-5xl);
   color: var(--color-mediumvioletred);
@@ -198,26 +198,57 @@
   position: relative;
   line-height: 35px;
 }
-.frame-parent,
-.frame-wrapper4 {
-  display: flex;
+.frame-wrapper9 {
+  align-self: stretch;
+  display: none;
   flex-direction: column;
   align-items: center;
-}
-.frame-wrapper4 {
-  align-self: stretch;
   justify-content: center;
   padding: 0 var(--padding-78xl);
 }
-.frame-parent {
+.you-can-access3 {
+  flex: 1;
   position: relative;
+  line-height: 35px;
+}
+.image-9-icon {
+  position: relative;
+  width: 385px;
+  height: 220px;
+  object-fit: cover;
+}
+.frame-wrapper10 {
+  align-self: stretch;
   background-color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.upon-redirection-you1 {
+  align-self: stretch;
+  position: relative;
+  line-height: 35px;
+}
+.frame-root,
+.upon-redirection-you-will-acc-parent {
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-xl);
+}
+.upon-redirection-you-will-acc-parent {
+  align-self: stretch;
+  justify-content: center;
+}
+.frame-root {
+  position: relative;
   width: 100%;
   overflow: hidden;
   justify-content: flex-start;
   padding: var(--padding-52xl) var(--padding-31xl);
   box-sizing: border-box;
-  gap: var(--gap-xl);
   text-align: left;
   font-size: var(--font-size-xl);
   color: var(--color-black);
@@ -236,19 +267,19 @@
     flex: unset;
     align-self: stretch;
   }
-  .frame-parent1 {
+  .frame-parent6 {
     flex-direction: column-reverse;
   }
-  .frame-container,
-  .frame-parent1 {
+  .frame-parent5,
+  .frame-parent6 {
     align-items: flex-start;
     justify-content: flex-start;
   }
   .you-can-start-creating-a-new-d-parent {
     flex-direction: column;
   }
-  .frame-group,
-  .frame-parent2,
+  .frame-parent4,
+  .frame-parent7,
   .you-can-start-creating-a-new-d-parent {
     align-items: flex-start;
     justify-content: flex-start;
@@ -262,13 +293,23 @@
   .image-1-parent {
     flex-direction: column-reverse;
   }
-  .frame-parent {
+  .you-can-access3 {
+    flex: unset;
+    align-self: stretch;
+  }
+  .frame-wrapper10,
+  .upon-redirection-you-will-acc-parent {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .frame-root {
     align-items: flex-start;
     justify-content: center;
   }
 }
 @media screen and (max-width: 420px) {
-  .getting-started-with {
+  .getting-started-with1 {
     font-size: var(--font-size-xl);
   }
   .administrator-dashboard {
@@ -293,14 +334,14 @@
     font-size: var(--font-size-xs);
     line-height: 15px;
   }
-  .frame-parent1 {
+  .frame-parent6 {
     align-items: center;
     justify-content: flex-start;
     padding-left: 0;
     padding-right: 0;
     box-sizing: border-box;
   }
-  .frame-container {
+  .frame-parent5 {
     align-items: flex-start;
     justify-content: flex-start;
   }
@@ -312,12 +353,12 @@
     padding-right: 0;
     box-sizing: border-box;
   }
-  .frame-group,
-  .frame-parent2 {
+  .frame-parent4,
+  .frame-parent7 {
     align-items: flex-start;
     justify-content: flex-start;
   }
-  .frame-group {
+  .frame-parent4 {
     padding-left: var(--padding-8xs);
     padding-right: var(--padding-8xs);
     box-sizing: border-box;
@@ -333,19 +374,36 @@
   .image-1-parent {
     gap: var(--gap-xl);
   }
-  .once-logged-in {
+  .once-logged-in,
+  .you-can-access3 {
     font-size: var(--font-size-xs);
     line-height: 15px;
   }
-  .frame-parent {
+  .frame-wrapper10 {
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .upon-redirection-you1 {
+    font-size: var(--font-size-xs);
+    line-height: 15px;
+  }
+  .frame-root,
+  .upon-redirection-you-will-acc-parent {
     align-items: center;
     justify-content: flex-start;
-    padding: var(--padding-21xl) var(--padding-8xs);
     box-sizing: border-box;
+  }
+  .upon-redirection-you-will-acc-parent {
+    gap: var(--gap-xl);
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .frame-root {
+    padding: var(--padding-21xl) var(--padding-8xs);
   }
 }
 @media screen and (max-width: 425px) {
-  .getting-started-with {
+  .getting-started-with1 {
     font-size: var(--font-size-xl);
   }
   .administrator-dashboard {
@@ -369,13 +427,13 @@
   .you-can-click {
     font-size: var(--font-size-xs);
   }
-  .frame-parent1,
+  .frame-parent6,
   .you-can-start-creating-a-new-d-parent {
     padding-left: 0;
     padding-right: 0;
     box-sizing: border-box;
   }
-  .frame-group {
+  .frame-parent4 {
     padding-left: var(--padding-8xs);
     padding-right: var(--padding-8xs);
     box-sizing: border-box;
@@ -387,17 +445,26 @@
     box-sizing: border-box;
   }
   .once-logged-in {
-    font-size: var(--font-size-xs);
     line-height: 30px;
   }
-  .frame-parent {
+  .once-logged-in,
+  .upon-redirection-you1,
+  .you-can-access3 {
+    font-size: var(--font-size-xs);
+  }
+  .upon-redirection-you-will-acc-parent {
+    padding-left: 0;
+    padding-right: 0;
+    box-sizing: border-box;
+  }
+  .frame-root {
     padding: var(--padding-21xl) var(--padding-xl);
     box-sizing: border-box;
   }
 }
 @media screen and (max-width: 620px) {
   .administrator-dashboard,
-  .getting-started-with {
+  .getting-started-with1 {
     font-size: var(--font-size-xl);
   }
   .this-tutorials-goal-container {
@@ -405,7 +472,7 @@
   }
 }
 @media screen and (max-width: 800px) {
-  .getting-started-with {
+  .getting-started-with1 {
     font-size: var(--font-size-5xl);
   }
   .administrator-dashboard {
@@ -416,18 +483,28 @@
     font-size: var(--font-size-base);
     line-height: 25px;
   }
-  .frame-child {
+  .frame-child3,
+  .frame-child4 {
     width: 323px;
     height: 182px;
   }
   .once-logged-in,
+  .you-can-access3,
   .you-can-click {
+    font-size: var(--font-size-base);
+    line-height: 25px;
+  }
+  .image-9-icon {
+    width: 323px;
+    height: 182px;
+  }
+  .upon-redirection-you1 {
     font-size: var(--font-size-base);
     line-height: 25px;
   }
 }
 @media screen and (min-width: 3000px) {
-  .frame-parent {
+  .frame-root {
     padding-left: var(--padding-1181xl);
     padding-right: var(--padding-1181xl);
     box-sizing: border-box;
