@@ -85,7 +85,7 @@
   height: 242px;
   object-fit: cover;
 }
-.frame-parent15,
+.frame-parent16,
 .you-can-click-on-each-of-these-parent {
   align-self: stretch;
   background-color: var(--color-white);
@@ -95,7 +95,7 @@
   justify-content: flex-start;
   gap: var(--gap-xl);
 }
-.frame-parent15 {
+.frame-parent16 {
   flex-direction: column;
   align-items: flex-start;
   gap: var(--gap-27xl);
@@ -115,19 +115,19 @@
   flex-shrink: 0;
   object-fit: cover;
 }
-.frame-parent17,
-.frame-parent19 {
+.frame-parent18,
+.frame-parent20 {
   align-self: stretch;
   display: flex;
   justify-content: flex-start;
 }
-.frame-parent19 {
+.frame-parent20 {
   background-color: var(--color-white);
   flex-direction: row;
   align-items: center;
   gap: var(--gap-xl);
 }
-.frame-parent17 {
+.frame-parent18 {
   flex-direction: column;
   align-items: flex-start;
   gap: var(--gap-27xl);
@@ -157,14 +157,14 @@
   line-height: 20px;
   font-weight: 600;
 }
-.frame-wrapper11,
+.frame-wrapper10,
 .log-in-container {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
 }
-.frame-wrapper11 {
+.frame-wrapper10 {
   align-self: stretch;
   font-size: var(--font-size-5xl);
   color: var(--color-mediumvioletred);
@@ -188,15 +188,15 @@
   height: 366px;
   object-fit: cover;
 }
-.frame-wrapper12,
-.frame-wrapper14 {
+.frame-wrapper11,
+.frame-wrapper13 {
   align-self: stretch;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-.frame-wrapper14 {
+.frame-wrapper13 {
   padding: 0 var(--padding-78xl);
 }
 .you-can-access5 {
@@ -210,23 +210,23 @@
   height: 219.4px;
   object-fit: cover;
 }
-.frame-parent14,
+.frame-parent15,
 .frame-top,
-.frame-wrapper15 {
+.frame-wrapper14 {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
 }
-.frame-wrapper15 {
+.frame-wrapper14 {
   align-self: stretch;
   background-color: var(--color-white);
   align-items: flex-start;
 }
-.frame-parent14,
+.frame-parent15,
 .frame-top {
   overflow: hidden;
 }
-.frame-parent14 {
+.frame-parent15 {
   align-self: stretch;
   align-items: flex-start;
   padding: var(--padding-20xl) 0;
@@ -263,16 +263,16 @@
   .you-can-click-on-each-of-these-parent {
     flex-direction: column-reverse;
   }
-  .frame-parent15,
+  .frame-parent16,
   .you-can-click-on-each-of-these-parent {
     align-items: flex-start;
     justify-content: flex-start;
   }
-  .frame-parent19 {
+  .frame-parent20 {
     flex-direction: column;
   }
-  .frame-parent17,
-  .frame-parent19,
+  .frame-parent18,
+  .frame-parent20,
   .to-assign-a-device-click-on-t-group {
     align-items: flex-start;
     justify-content: flex-start;
@@ -290,12 +290,12 @@
     flex: unset;
     align-self: stretch;
   }
-  .frame-wrapper15 {
+  .frame-wrapper14 {
     flex-direction: column-reverse;
   }
-  .frame-parent14,
+  .frame-parent15,
   .frame-top,
-  .frame-wrapper15 {
+  .frame-wrapper14 {
     align-items: flex-start;
     justify-content: flex-start;
   }
@@ -337,19 +337,19 @@
     padding-right: 0;
     box-sizing: border-box;
   }
-  .frame-parent15,
-  .frame-parent19 {
+  .frame-parent16,
+  .frame-parent20 {
     align-items: flex-start;
     justify-content: flex-start;
   }
-  .frame-parent19 {
+  .frame-parent20 {
     gap: var(--gap-xl);
     align-items: center;
     padding-left: 0;
     padding-right: 0;
     box-sizing: border-box;
   }
-  .frame-parent17 {
+  .frame-parent18 {
     align-items: flex-start;
     justify-content: flex-start;
   }
@@ -383,16 +383,16 @@
   .image-4-icon {
     width: 323px;
   }
-  .frame-wrapper15 {
+  .frame-wrapper14 {
     align-items: flex-start;
     justify-content: flex-start;
   }
-  .frame-parent14,
+  .frame-parent15,
   .frame-top {
     justify-content: flex-start;
     box-sizing: border-box;
   }
-  .frame-parent14 {
+  .frame-parent15 {
     align-items: flex-start;
     padding-left: var(--padding-8xs);
     padding-right: var(--padding-8xs);
@@ -434,7 +434,7 @@
   .create-a-new3 {
     font-size: var(--font-size-base);
   }
-  .frame-parent19,
+  .frame-parent20,
   .image-1-group,
   .to-assign-a-device-click-on-t-group {
     padding-left: 0;
@@ -452,7 +452,7 @@
   .you-can-access5 {
     font-size: var(--font-size-xs);
   }
-  .frame-parent14 {
+  .frame-parent15 {
     padding-left: var(--padding-8xs);
     padding-right: var(--padding-8xs);
     box-sizing: border-box;

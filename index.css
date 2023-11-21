@@ -1,9 +1,9 @@
-.getting-started-with1 {
+.getting-started-with {
   flex: 1;
   position: relative;
   line-height: 20px;
 }
-.getting-started-with-iotlogiq-container {
+.getting-started-with-iotlogiq-wrapper {
   align-self: stretch;
   display: flex;
   flex-direction: row;
@@ -15,6 +15,9 @@
 .administrator-dashboard {
   position: relative;
   line-height: 20px;
+}
+.this-tutorials-goal {
+  margin: 0;
 }
 .create-customers-locations {
   margin-bottom: 0;
@@ -55,9 +58,6 @@
   font-size: var(--font-size-5xl);
   color: var(--color-mediumvioletred);
 }
-.in-the-top {
-  margin: 0;
-}
 .in-the-top-container {
   align-self: stretch;
   position: relative;
@@ -71,31 +71,36 @@
   align-items: center;
   justify-content: center;
 }
-.frame-child3 {
+.frame-child {
   position: relative;
   width: 650px;
   height: 377px;
   object-fit: cover;
 }
-.frame-wrapper4 {
+.frame-wrapper {
   align-self: stretch;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-.frame-child4 {
+.frame-inner,
+.frame-item {
   position: relative;
   width: 650px;
   height: 366px;
   object-fit: cover;
+}
+.frame-inner {
+  width: 323px;
+  height: 242px;
 }
 .you-can-click {
   flex: 1;
   position: relative;
   line-height: 30px;
 }
-.frame-parent6 {
+.frame-parent1 {
   align-self: stretch;
   background-color: var(--color-white);
   display: flex;
@@ -105,13 +110,13 @@
   gap: var(--gap-xl);
 }
 .create-a-new-device-wrapper,
-.frame-parent5 {
+.frame-container {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
 }
-.frame-parent5 {
+.frame-container {
   align-self: stretch;
   background-color: var(--color-white);
   gap: var(--gap-27xl);
@@ -121,12 +126,6 @@
   font-size: var(--font-size-5xl);
   color: var(--color-mediumvioletred);
 }
-.image-5-icon {
-  position: relative;
-  width: 323px;
-  height: 242px;
-  object-fit: cover;
-}
 .you-can-start-creating-a-new-d-parent {
   align-self: stretch;
   display: flex;
@@ -135,7 +134,7 @@
   justify-content: flex-start;
   gap: var(--gap-xl);
 }
-.frame-child6 {
+.frame-icon {
   position: relative;
   width: 323px;
   height: 242px;
@@ -143,8 +142,8 @@
   flex-shrink: 0;
   object-fit: cover;
 }
-.frame-parent4,
-.frame-parent7 {
+.frame-group,
+.frame-parent2 {
   align-self: stretch;
   display: flex;
   flex-direction: column;
@@ -152,7 +151,7 @@
   justify-content: flex-start;
   gap: var(--gap-27xl);
 }
-.frame-parent4 {
+.frame-group {
   overflow: hidden;
   padding: var(--padding-20xl) 0;
 }
@@ -181,14 +180,14 @@
   line-height: 20px;
   font-weight: 600;
 }
-.frame-wrapper6,
+.frame-wrapper1,
 .log-in-wrapper {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
 }
-.frame-wrapper6 {
+.frame-wrapper1 {
   align-self: stretch;
   font-size: var(--font-size-5xl);
   color: var(--color-mediumvioletred);
@@ -198,7 +197,7 @@
   position: relative;
   line-height: 35px;
 }
-.frame-wrapper9 {
+.frame-wrapper4 {
   align-self: stretch;
   display: none;
   flex-direction: column;
@@ -206,7 +205,7 @@
   justify-content: center;
   padding: 0 var(--padding-78xl);
 }
-.you-can-access3 {
+.you-can-access1 {
   flex: 1;
   position: relative;
   line-height: 35px;
@@ -217,7 +216,7 @@
   height: 220px;
   object-fit: cover;
 }
-.frame-wrapper10 {
+.frame-wrapper5 {
   align-self: stretch;
   background-color: var(--color-white);
   display: flex;
@@ -225,12 +224,12 @@
   align-items: flex-start;
   justify-content: flex-start;
 }
-.upon-redirection-you1 {
+.upon-redirection-you {
   align-self: stretch;
   position: relative;
   line-height: 35px;
 }
-.frame-root,
+.frame-parent,
 .upon-redirection-you-will-acc-parent {
   background-color: var(--color-white);
   display: flex;
@@ -242,7 +241,7 @@
   align-self: stretch;
   justify-content: center;
 }
-.frame-root {
+.frame-parent {
   position: relative;
   width: 100%;
   overflow: hidden;
@@ -267,19 +266,19 @@
     flex: unset;
     align-self: stretch;
   }
-  .frame-parent6 {
+  .frame-parent1 {
     flex-direction: column-reverse;
   }
-  .frame-parent5,
-  .frame-parent6 {
+  .frame-container,
+  .frame-parent1 {
     align-items: flex-start;
     justify-content: flex-start;
   }
   .you-can-start-creating-a-new-d-parent {
     flex-direction: column;
   }
-  .frame-parent4,
-  .frame-parent7,
+  .frame-group,
+  .frame-parent2,
   .you-can-start-creating-a-new-d-parent {
     align-items: flex-start;
     justify-content: flex-start;
@@ -293,23 +292,26 @@
   .image-1-parent {
     flex-direction: column-reverse;
   }
-  .you-can-access3 {
+  .you-can-access1 {
     flex: unset;
     align-self: stretch;
   }
-  .frame-wrapper10,
+  .frame-wrapper5,
   .upon-redirection-you-will-acc-parent {
-    flex-direction: column-reverse;
     align-items: flex-start;
     justify-content: flex-start;
+    flex-direction: column-reverse;
   }
-  .frame-root {
+  .upon-redirection-you-will-acc-parent {
+    flex-direction: column;
+  }
+  .frame-parent {
     align-items: flex-start;
     justify-content: center;
   }
 }
 @media screen and (max-width: 420px) {
-  .getting-started-with1 {
+  .getting-started-with {
     font-size: var(--font-size-xl);
   }
   .administrator-dashboard {
@@ -334,14 +336,14 @@
     font-size: var(--font-size-xs);
     line-height: 15px;
   }
-  .frame-parent6 {
+  .frame-parent1 {
     align-items: center;
     justify-content: flex-start;
     padding-left: 0;
     padding-right: 0;
     box-sizing: border-box;
   }
-  .frame-parent5 {
+  .frame-container {
     align-items: flex-start;
     justify-content: flex-start;
   }
@@ -353,12 +355,12 @@
     padding-right: 0;
     box-sizing: border-box;
   }
-  .frame-parent4,
-  .frame-parent7 {
+  .frame-group,
+  .frame-parent2 {
     align-items: flex-start;
     justify-content: flex-start;
   }
-  .frame-parent4 {
+  .frame-group {
     padding-left: var(--padding-8xs);
     padding-right: var(--padding-8xs);
     box-sizing: border-box;
@@ -375,19 +377,19 @@
     gap: var(--gap-xl);
   }
   .once-logged-in,
-  .you-can-access3 {
+  .you-can-access1 {
     font-size: var(--font-size-xs);
     line-height: 15px;
   }
-  .frame-wrapper10 {
+  .frame-wrapper5 {
     align-items: flex-start;
     justify-content: flex-start;
   }
-  .upon-redirection-you1 {
+  .upon-redirection-you {
     font-size: var(--font-size-xs);
     line-height: 15px;
   }
-  .frame-root,
+  .frame-parent,
   .upon-redirection-you-will-acc-parent {
     align-items: center;
     justify-content: flex-start;
@@ -398,12 +400,12 @@
     padding-left: 0;
     padding-right: 0;
   }
-  .frame-root {
+  .frame-parent {
     padding: var(--padding-21xl) var(--padding-8xs);
   }
 }
 @media screen and (max-width: 425px) {
-  .getting-started-with1 {
+  .getting-started-with {
     font-size: var(--font-size-xl);
   }
   .administrator-dashboard {
@@ -427,13 +429,13 @@
   .you-can-click {
     font-size: var(--font-size-xs);
   }
-  .frame-parent6,
+  .frame-parent1,
   .you-can-start-creating-a-new-d-parent {
     padding-left: 0;
     padding-right: 0;
     box-sizing: border-box;
   }
-  .frame-parent4 {
+  .frame-group {
     padding-left: var(--padding-8xs);
     padding-right: var(--padding-8xs);
     box-sizing: border-box;
@@ -448,8 +450,8 @@
     line-height: 30px;
   }
   .once-logged-in,
-  .upon-redirection-you1,
-  .you-can-access3 {
+  .upon-redirection-you,
+  .you-can-access1 {
     font-size: var(--font-size-xs);
   }
   .upon-redirection-you-will-acc-parent {
@@ -457,14 +459,14 @@
     padding-right: 0;
     box-sizing: border-box;
   }
-  .frame-root {
+  .frame-parent {
     padding: var(--padding-21xl) var(--padding-xl);
     box-sizing: border-box;
   }
 }
 @media screen and (max-width: 620px) {
   .administrator-dashboard,
-  .getting-started-with1 {
+  .getting-started-with {
     font-size: var(--font-size-xl);
   }
   .this-tutorials-goal-container {
@@ -472,7 +474,7 @@
   }
 }
 @media screen and (max-width: 800px) {
-  .getting-started-with1 {
+  .getting-started-with {
     font-size: var(--font-size-5xl);
   }
   .administrator-dashboard {
@@ -483,13 +485,13 @@
     font-size: var(--font-size-base);
     line-height: 25px;
   }
-  .frame-child3,
-  .frame-child4 {
+  .frame-child,
+  .frame-item {
     width: 323px;
     height: 182px;
   }
   .once-logged-in,
-  .you-can-access3,
+  .you-can-access1,
   .you-can-click {
     font-size: var(--font-size-base);
     line-height: 25px;
@@ -498,13 +500,13 @@
     width: 323px;
     height: 182px;
   }
-  .upon-redirection-you1 {
+  .upon-redirection-you {
     font-size: var(--font-size-base);
     line-height: 25px;
   }
 }
 @media screen and (min-width: 3000px) {
-  .frame-root {
+  .frame-parent {
     padding-left: var(--padding-1181xl);
     padding-right: var(--padding-1181xl);
     box-sizing: border-box;
